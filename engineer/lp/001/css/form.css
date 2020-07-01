@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+.error_message {
+	color: #e43513;
+	font-size: 11px;
+	line-height: 24px;
+}
+.entry__tbl__name .error_message { letter-spacing: -0.02em; }
+.entry__tbl__birth .error_message,
+.entry__tbl__experience .error_message {
+	letter-spacing: normal;
+}
+select.error,
+input.error {
+	background-color: #ffe6e6;
+}
+.conf,
+.thank {
+	min-height: 768px;
+}
+.conf_header__txt { text-align: right; }
+.conf .head__txt,
+.thank .head__txt {
+	text-align: center;
+	margin: 50px auto 0;
+	color: #65696c;
+}
+.conf .head__txt p {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 25px 0 0 0;
+}
+.conf #body,
+.thank #body {
+	width: 638px;
+	margin: 0 auto;
+}
+.conf_table {
+	width: 100%;
+    margin: 30px 0 0 0;
+}
+.conf_table table {
+	width: 100%;
+	text-align: left;
+	border: 3px solid #d7e0e3;
+	margin: 0 0 40px 0;
+}
+.conf_table th {
+	font-weight: bold;
+	padding: 0 0 0 27px;
+}
+.conf_table th span,
+.conf_table td span {
+	line-height: 66px;
+	font-size : 14px;
+	display: inline-block;
+}
+.conf_table th span {
+	width: 192px;
+	padding-left: 17px;
+}
+.conf_table td span { width: 387px; }
+.conf_table td { padding: 0 27px 0 0; }
+.conf_table th span,
+.conf_table td span {
+	border-bottom: 1px solid #e9f2f5;
+}
+.conf_table tr:last-child th,
+.conf_table tr:last-child td {
+	padding-bottom: 24px;
+}
+.conf_btn_wrapper { padding: 0 30px 80px; }
+.conf_btn {
+	width: 268px;
+	color: #fff;
+	text-align: center;
+	line-height: 63px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.submit_btn {
+	background-color: #ee561a;
+	float: right;
+}
+.return_btn {
+	background-color:#778f9b;
+	margin: 0 37px 0 0;
+}
+.body__txt { text-align: center; }
+.thanks__ttl {
+	font-size: 36px;
+	line-height: 1;
+	margin: 122px 0 43px 0;
+}
+.thanks__txt {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 123px 0;
+}
+.top_return {
+	font-size: 16px;
+    background-color: #2383c5;
+    line-height: 63px;
+    width: 278px;
+    border-radius: 3px;
+    color: #fff;
+	cursor: pointer;
+}
+.top_return, .conf_btn{
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	-webkit-appearance: none;
+}
+.top_return:hover, .conf_btn:hover{
+	opacity: .6;
+}
+@media screen and ( max-width:767px ){
+	.conf,
+	.thank {
+		min-height:0;
+	}
+	.conf #body,
+	.thank #body {
+		width: 100%;
+		padding: 0 15px;
+	}
+	.conf .head__txt,
+	.thank .head__txt {
+		margin: 22px 0 0 0;
+	}
+	.conf .head__txt p {
+		font-size: 13px;
+		line-height: 18px;
+		text-align: left;
+	}
+	.head__txt img {
+		width: auto;
+		max-width: 100%;
+		padding:0 43px;
+	}
+	.conf_table { margin:13px 0 0 0; }
+	.conf_table table,
+	.conf_table tbody,
+	.conf_table thead,
+	.conf_table tfoot,
+	.conf_table tr,
+	.conf_table th,
+	.conf_table td {
+    	display: block;
+	}
+	.conf_table td {
+		padding: 0 0 10px 0;
+		margin: 0 15px 0;
+		border-bottom: 1px solid #ebf3f5;
+	}
+	.conf_table th {
+		padding: 0;
+		margin: 10px 15px 0;
+	}
+	.conf_table tr:nth-child(n) th span,
+	.conf_table tr:nth-child(n) td span {
+		border-bottom: none;
+		text-align: left;
+	}
+	.conf_table tr:last-child th,
+	.conf_table tr:last-child td{
+		padding:0 0 10px;
+	}
+	.conf_table th span,
+	.conf_table td span {
+		width: 100%;
+		padding: 0;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.conf_table table { margin: 0 0 15px 0; }
+	.conf_btn_wrapper {	padding: 0; }
+	.conf_btn {
+		font-size: 13px;
+		line-height: 50px;
+		width: 100%;
+		margin: 0;
+	}
+	.submit_btn { margin: 0 0 10px 0; }
+	.thank { color: #48545a; }
+	.thanks__ttl {
+		font-size: 18px;
+		margin: 50px 0 20px;
+	}
+	.thanks__txt {
+		text-align: left;
+		font-size: 13px;
+		line-height: 18px;
+		margin: 0 0 58px 0;
+	}
+	.pc_br { display: none; }
+	.top_return {
+		width: 100%;
+		line-height: 50px;
+	}
+}

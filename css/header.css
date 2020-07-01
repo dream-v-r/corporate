@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header_wrap {
+	width: 950px;
+	overflow:hidden;
+}
+
+#header_wrap h1 {
+	width: 900px;
+	margin: 0px 0px 20px 20px;
+	padding: 25px 0px 0px 0px;
+	float: left;
+	display: inline;
+}
+ol.nav{
+overflow:hidden;
+}
+ol.nav li{
+float:left;
+}
+
+
+
+#header_wrap h2 {
+	width: 300px;
+	display: inline;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 10px 0px;
+	float: left;
+}
+
+#header_wrap ul {
+	float: right;
+	padding: 40px 0px 0px 0px;
+	margin: 0px 20px 0px 0px;
+	display: inline;
+}
+
+#header_wrap ul li {
+	width: auto;
+	float: left;
+	display: inline;
+	font-size: 86%;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 10px 0px 0px;
+	border-right: 1px solid #333;
+	line-height: 1.4;
+}
+
+#header_wrap ol {
+	width: 940px;
+	float: left;
+	display: inline;
+	margin: 0px 0px 0px 5px;
+	padding-bottom: 4px;
+}
+
+#header_wrap ol .menu01 {
+	width: 120px;
+	float: left;
+}
+
+#header_wrap ol .menu02 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu03 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu04 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu05 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu06 {
+	width: 164px;
+	float: left;
+}
+

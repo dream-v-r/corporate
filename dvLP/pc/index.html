@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <!--レスポンシブ対応-->
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <!-- 電話番号の自動リンク機能を制御 -->
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <!-- skypeアドオンの影響でボタンが置換されないようにする -->
+
+
+    <title>週3派遣｜Web/デザイン/IT業界のクリエイターの人材紹介</title>
+    <meta name="Description" content="【週3日からの派遣求人】フリーランスのデザイナー、ディレクター、エンジニアの方、大歓迎！Web/デザイン/IT業界のクリエイターのための求人をご紹介いたします。" />
+    <meta name="keywords" content="週3,時短,派遣,フリーランス,求人,転職,クリエイター,デザイナー,ディレクター,エンジニア" />
+
+
+    <link rel="stylesheet" type="text/css" href="common/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="common/css/class.css" />
+    <link rel="stylesheet" type="text/css" href="common/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="common/css/jquery.bxslider.css">
+
+    <!--[if lte IE 9]>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+    <!--[if gt IE 9]><!-->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--<![endif]-->
+
+    <script type="text/javascript" src="common/js/share.js"></script>
+    <script src="common/js/jquery.bxslider.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var slideNum = $('.slide').size();
+            $('.slide_body').bxSlider({
+                slideWidth: 1000,
+                auto: true, //スライドの自動再生
+                pause: 5000, //スライドの静止時間
+                speed: 300, //スライド動作の速度。
+                easing: 'linear',
+                minSlides: 3,
+                maxSlides: 3,
+                moveSlides: 1,
+                slideMargin: 0,
+                onSliderLoad: function(currentIndex) {
+                    $('.slide').removeClass('active');
+                    $('.slide_body > div:nth-child(3n-1)').addClass('active');
+                },
+                onSlideBefore: function($slideElement, oldIndex, newIndex) {
+                    var new_i = newIndex % 3 - 1;
+                    var nth = (new_i < 0) ? '3n-1' : '3n' + new_i;
+                    $('.slide').removeClass('active');
+                    $('.slide_body > div:nth-child(' + nth + ')').addClass('active');
+                }
+            });
+        });
+    </script>
+
+
+</head>
+
+<body id="top">
+    <div id="headerWrap">
+        <header>
+            <div id="logoLeadWrap">
+                <p>人材紹介、人材派遣、IT・WEB開発のドリームビジョン</p>
+                <h1><a href="http://www.dream-v.co.jp/" target="_blank"><img src="common/images/logo.png" alt="DREAMVISION CO.,LTD."></a></h1>
+            </div>
+            <!--logoLeadWrap-->
+            <ul id="headerBtn">
+                <li class="fbBtn">
+                    <a href="https://www.facebook.com/dreamvision.creatorsfun/" target="_blank"><img src="./common/images/fb.png" alt="facebook"></a>
+                </li>
+                <li><a href="#registrationForm"><span>かんたん30秒登録！</span> <br>無料登録はこちら</a></li>
+            </ul>
+            <!--headerBtn-->
+            <nav>
+                <ul>
+                    <li><a href="#reason">選ばれる理由</a></li>
+                    <li><a href="#merrit">週3派遣のメリット</a></li>
+                    <li><a href="#exampleWork">求人の一例</a></li>
+                    <li><a href="#step">仕事紹介の流れ</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--headerWrap-->
+
+    <div id="mainVisual" class="container">
+        <div class="slide_all">
+            <div class="slide_wrap">
+                <div class="slide_body">
+                    <div class="slide"><img src="common/images/mv03.png" alt="週3派遣自由な働き方をしませんか？ 抱えている案件の合間に 自営業の合間に クライアント探しに疲れたら…"></div>
+                    <div class="slide"><img src="common/images/mv01.png" alt="point ドリームビジョンはココが違う！！★創業時からクリエイティブに特化した人材会社 ★派遣のみでなく、直雇用・業務委託もOK ★自社にも制作部署あり（パートナー契約応相談）">
+                        <p class="firstSlide"><a href="">週3求人を探す</a></p>
+                    </div>
+                    <div class="slide"><img src="common/images/mv02.png" alt="LIFE STYLE 働き方もデザインしよう 仕事をしながら子育てや勉強、自由な時間を作るのはとっても大変…クリエイターだからこそできる、自由な働き方で仕事とプライベートを両立！"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <article id="reason" class="listStyle">
+            <div class="listWrap">
+                <ul>
+                    <li class="floatNone">
+                        <h2 class="articleTitle">選ばれる理由<span>ドリームビジョンで派遣登録するメリット</span></h2>
+                    </li>
+                    <li class="uniqueText">
+                        <div><img src="common/images/reasonIcon01.png" alt=""></div>
+                        <h3>登録が簡単</h3>
+                        <ul>
+                            <li>◎電話面談OK</li>
+                            <li>◎渋谷オフィス徒歩40秒</li>
+                            <li>◎カフェスタイルのリラックス空間</li>
+                        </ul>
+                    </li>
+                    <li class="uniqueBk">
+                        <div><img src="common/images/reasonIcon02.png" alt=""></div>
+                        <h3>クリエイティブ業界の<br>求人に特化</h3>
+                        <ul>
+                            <li>◎Web/DTP/IT業界に特化した豊富な求人</li>
+                            <li>◎クリエイターの派遣、正社員の転職を支援</li>
+                        </ul>
+                    </li>
+                    <li class="LastText">
+                        <div><img src="common/images/reasonIcon03.png" alt=""></div>
+                        <h3>無料セミナーへの<br>優先参加</h3>
+                        <ul>
+                            <li>◎フリーランスの方同士の情報交換・提携の場に。</li>
+                            <li>◎独立した方の生の声も聞けます。</li>
+                            <li>◎業界著名人との関わり</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--listWrap-->
+        </article>
+        <!--reason-->
+
+        <article id="merrit" class="listStyle">
+            <h2 class="articleTitle">週3派遣のメリット<span>こんな方にピッタリ！</span></h2>
+            <ul class="firstUl">
+                <li>
+                    <h3><span>フリーランスの方</span></h3>
+                    <ul class="listImg01">
+                        <li>フリーランスとして独立したけれど、収入が安定せず波がある。</li>
+                        <li>定期的に仕事がほしい。</li>
+                    </ul>
+                </li>
+                <li class="uniqueList">
+                    <h3><span>子育て中の方</span></h3>
+                    <ul class="listImg02">
+                        <li>週5勤務は無理だけど、家事や育児と仕事を両立させたい。</li>
+                        <li>お迎えに間に合う時間で退社したい</li>
+                    </ul>
+                </li>
+                <li class="listImg03">
+                    <h3><span>空き時間を<br>有効活用したい方</span></h3>
+                    <ul>
+                        <li>働きながら独立の準備をしたい。 </li>
+                        <li>フルタイム勤務は難しいので時短で働ける仕事を探し中。</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+        <!--merrit-->
+
+        <article class="registrationBtn application">
+            <h2 class="articleTitle">かんたん！30秒で登録完了！</h2>
+            <p><a href="#registrationForm">週3派遣に応募する</a></p>
+        </article>
+        <!--registrationBtn-->
+
+        <article id="exampleWork">
+            <h2 class="articleTitle">例えば、こんなお仕事があります！</h2>
+            <ul class="squareList">
+                <li><img src="common/images/exampleWork01.png" alt="フリーランスと両立したい週3特集"></li>
+                <li><img src="common/images/exampleWork02.png" alt="子どものお迎えに間に合うように退社したい時短勤務OK特集"></li>
+                <li><img src="common/images/exampleWork03.png" alt="保険料など天引きされたくない高時給特集"></li>
+            </ul>
+            <h3>募集職種</h3>
+            <ul class="circleList">
+                <li><span>Web<br>デザイナー</span></li>
+                <li><span>HTML<br>コーダー</span></li>
+                <li><span>プログラマー</span></li>
+                <li><span>Web<br>ディレクター</span></li>
+            </ul>
+        </article>
+        <!--exampleWork-->
+
+        <article class="registrationBtn">
+            <h2 class="articleTitle">週3のお仕事を紹介してもらう<span>かんたん30秒登録！</span></h2>
+            <p><a href="#registrationForm">無料登録はこちら</a></p>
+        </article>
+        <!--registrationBtn-->
+
+        <article id="step">
+            <h2 class="articleTitle">まずは、週3派遣に登録！<span>登録からお仕事紹介までの流れ</span></h2>
+            <ul class="squareList">
+                <li><img src="common/images/registrationList01.png" alt="STEP 1 登録フォームから、ポートフォリオを送信"></li>
+                <li><img src="common/images/registrationList02.png" alt="STEP 2 電話面談 or 来社面談でご希望をヒアリング"></li>
+                <li><img src="common/images/registrationList03.png" alt="STEP 3 お仕事のご紹介"></li>
+            </ul>
+        </article>
+        <!--step-->
+
+
+        <article id="registrationForm">
+            <h2 class="articleTitle">登録フォーム<span>必要事項を入力してください。</span></h2>
+            <form action="./clipmail-utf/clipmail.cgi" method="post" enctype="multipart/form-data">
+              <input type="hidden" name="need" value="氏名（性） 氏名（名） ふりがな（性） ふりがな（名） email 電話番号 生年月日（年） 生年月日（月） 生年月日（日） 同意する"/>
+              <input type="hidden" name="sort" value=" 氏名（性） 氏名（名） ふりがな（性） ふりがな（名） email 電話番号 生年月日（年） 生年月日（月） 生年月日（日） 希望職種 経験職種 clip-1 url 備考 同意する"/>
+
+                <ul class="formList">
+                    <li>
+                        <label for="name" class="required">氏名<span class="required">必須</span></label>
+                        <input class="inputTwo inputTwoFirst" type="text" id="name" name="氏名（性）">
+                        <input class="inputTwo" type="text" name="氏名（名）">
+                    </li>
+                    <li>
+                        <label for="kana" class="required">ふりがな<span class="required">必須</span></label>
+                        <input class="inputTwo inputTwoFirst" type="text" id="kana" name="ふりがな（性）">
+                        <input class="inputTwo" type="text" id="" name="ふりがな（名）">
+                    </li>
+                    <li>
+                        <label for="email" class="required">メールアドレス<span class="required">必須</span></label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="tel" class="required">電話番号<span class="required">必須</span></label>
+                        <input type="text" id="tel" name="電話番号">
+                    </li>
+
+                    <li class="age">
+                        <label class="required">生年月日<span class="required">必須</span></label>
+                        <select name="生年月日（年）">
+                <option value="">選択してください
+                  <script type="text/javascript" >
+                    var i = 1950;
+                    while(i <= 2016){
+                    document.write('<option value="'+i+'年">'+i+'</option>');
+                    i= i + 1;
+                    }
+                  </script>
+                </option>
+              </select>年
+
+                        <select name="生年月日（月）">
+              <option value="">選択してください
+                <script type="text/javascript" >
+                  var i = 1;
+                  while(i <= 12){
+                  document.write('<option value="'+i+'月">'+i+'</option>');
+                  i= i + 1;
+                  }
+                </script>
+              </option>
+            </select>月
+
+                        <select name="生年月日（日）">
+            <option value="">選択してください
+              <script>
+                var i = 1;
+                while(i <= 31){
+                document.write('<option value="'+i+'日">'+i+'</option>')
+                i = i + 1;
+                }
+              </script>
+            </option>
+          </select>日
+                    </li>
+
+                    <li class="syokusyu">
+                        <label for="">希望職種</label>
+                        <select name="希望職種">
+                          <option value="">選択してください</option>
+                          <option value="Webデザイナー">Webデザイナー</option>
+                          <option value="Webディレクター">Webディレクター</option>
+                          <option value="Webプロデューサー">Webプロデューサー</option>
+                          <option value="HTMLコーダー/フロントエンドエンジニア">HTMLコーダー/フロントエンドエンジニア</option>
+                          <option value="モバイル関連">モバイル関連</option>
+                          <option value="グラフィックデザイナー">グラフィックデザイナー</option>
+                          <option value="プログラマー">プログラマー</option>
+                          <option value="システムエンジニア">システムエンジニア</option>
+                          <option value="事務">事務</option>
+                          <option value="営業・マーケティング">営業・マーケティング</option>
+            </select>
+                    </li>
+                    <li class="syokusyu">
+                        <label for="">経験職種</label>
+                        <select name="経験職種">
+                          <option value="">選択してください</option>
+                          <option value="Webデザイナー">Webデザイナー</option>
+                          <option value="Webディレクター">Webディレクター</option>
+                          <option value="Webプロデューサー">Webプロデューサー</option>
+                          <option value="HTMLコーダー/フロントエンドエンジニア">HTMLコーダー/フロントエンドエンジニア</option>
+                          <option value="モバイル関連">モバイル関連</option>
+                          <option value="グラフィックデザイナー">グラフィックデザイナー</option>
+                          <option value="プログラマー">プログラマー</option>
+                          <option value="システムエンジニア">システムエンジニア</option>
+                          <option value="事務">事務</option>
+                          <option value="営業・マーケティング">営業・マーケティング</option>
+            </select>
+                    </li>
+                    <li class="fileList">
+                        <label class="unique" for="">ポートフォリオ<br>（職務経歴書）</label>
+                        <label class="file" for="fileWrap">
+              <input type="file" id="fileWrap" name="clip-1" style="display:none;">ファイルを選択
+            </label>
+                        <p class="fileList-text">ポートフォリオ.pdf（0.8MB）<span>※ファイルサイズが1MBを超える場合、フォームからは送信できません。</span></p>
+                        <input type="text" name="url" placeholder="URL">
+                    </li>
+                    <li class="remarks">
+                        <label for="remarks">備考</label>
+                        <textarea name="備考"></textarea>
+                    </li>
+                </ul>
+
+                <div id="aboutPersonalInfo">
+                    <h3>個人情報取扱について</h3>
+                    <div id="personal">
+                        <div class="personal-description">
+                            【ダミーコピー】<br>個人情報取扱事項<br> 本サービスをご利用いただくにあたって、下記の事項にご承諾くださいますようお願いいたします。
+                            <br> 本webサイトは、利用者が本利用規約の内容すべてに承諾することを条件として利用者に提供されるものです。
+                            <br> 【1】事業者の氏名または名称
+                            <br> ドリームビジョン株式会社
+                            <br> 【2】個人情報保護管理者
+                            <br> 代表取締役　前田 俊樹<br> 【3】個人情報の利用目的
+                            <br> お問い合わせいただいた内容に回答するため。
+                        </div>
+                    </div>
+
+                    <div id="doui"><input id="agree" type="checkbox" name="同意する" value="同意する" /><label for="agree" class="width">個人情報取扱について同意する</label></div>
+
+                    <div id="submit-btn"><input type="submit" value="入力内容の確認" id="submit"></div>
+
+                </div>
+                <!--aboutPersonalInfo-->
+            </form>
+        </article>
+        <!--registrationForm-->
+
+        <article id="access">
+            <h2 class="articleTitle">アクセス</h2>
+            <ul id="accessMap">
+                <li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8023222006127!2d139.70149834994325!3d35.65724168010277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b599e9b7543%3A0x283682f24551c177!2z44OI44Ov44K544O844Or!5e0!3m2!1sja!2sjp!4v1473343511830"
+                        width="440" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <h3>渋谷オフィス</h3>
+                    <p>〒150-0002 東京都渋谷区渋谷3-18-6 Ando Building 4階 渋谷駅 16b番出口より徒歩40秒</p>
+                </li>
+                <li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.400906033892!2d139.7769039999446!3d35.69175083009465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eacb778e695%3A0x1dff303ba4748198!2z44CSMTAzLTAwMDEg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL5bCP5Lyd6aas55S677yZ4oiS77yR77yQIOWwj-S8nemmrOeUuuODk-ODqw!5e0!3m2!1sja!2sjp!4v1473343601076"
+                        width="440" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <h3>日本橋本社</h3>
+                    <p>〒103-0001 東京都中央区日本橋小伝馬町9-10 小伝馬町ビル5階 東京メトロ日比谷線 小伝馬町駅 2番出口より徒歩1分<br>JR総武線快速 馬喰町駅／都営新宿線 馬喰横山駅 2番出口より徒歩5分</p>
+                </li>
+            </ul>
+            <ul id="bnr">
+                <li>
+                    <a href="
+http://www.engineer-fan.jp/" target="_blank"><img src="./common/images/bnrEF.png" alt="Engineer Fan!!"></a>
+                </li>
+                <li>
+                    <a href="http://www.dream-v.co.jp/agent/" target="_blank"><img src="./common/images/bnrAgent.png" alt="WEB・DTPの転職ならDream Visionにお任せせ下さい"></a>
+                </li>
+            </ul>
+        </article>
+        <!--access-->
+    </section>
+
+    <footer>
+        <p>ドリームビジョン株式会社</p>
+        <address>Copyright(c)2015 DreamVision Co.,Ltd. All Rights Reserved</address>
+        <p id="topBtn"><a href="#top">TOP</a></p>
+    </footer>
+
+</body>
+
+</html>

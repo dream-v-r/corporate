@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" ><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta name="description" content="Dream Vision Co..LTD." />
+<meta name="keywords" content="Web・DTP・IT・OFFICEのお仕事探しはDream Vision" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="../css/owl.theme.css" />
+<!-- InstanceBeginEditable name="htmlHead" -->
+
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="script" -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="../js/owl.carousel.js" type="text/javascript"></script>
+<script src="../js/owl.carousel.js"></script>
+<script>
+$(function(){
+
+    $('#mv').owlCarousel({
+
+        slideSpeed  : 20,
+
+            // スライドのスピードを設定します。ミリ秒指定。
+
+        responsive:true,
+
+            // レスポンシブかどうかをtrue,falseで指定します。デフォルトはfalse(レスポンシブはオフ）。
+
+        items : 1,
+
+            // 表示させる要素の数を指定します。3にすれば3つ表示。
+			
+	navigation : true, //ナビゲーションの有無
+    navigationText : ["prev","next"], //ナビゲーションのテキスト
+
+    });
+
+});
+
+</script>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>WEB制作会社DreamVision</title>
+<!-- InstanceEndEditable -->
+
+
+</head>
+<body>
+<div id="header">
+		<h1>WEB制作会社DreamVision</h1>
+		<div class="inner">
+				<p class="logo"><a href="../header"><img src="../images/logo.png" alt="WEB制作会社DreamVision" /></a></p>
+				<ul>
+						<li><a href="../index.html"><img src="../images/nav_home.png" alt="ホーム" /></a></li>
+						<li><a href="../service/index.html"><img src="../images/nav_sv.png" alt="サービス" /></a></li>
+						<li><a href="../achievement/index.html"><img src="../images/nav_port.png" alt="実績紹介" /></a></li>
+						<li><a href="../style/index.html"><img src="../images/nav_style.png" alt="制作スタイル" /></a></li>
+						<li><a href="../contact/index.html"><img src="../images/nav_info.png" alt="お問い合わせ" /></a></li>
+				</ul>
+				<!-- inner -->
+		</div>
+		<!-- header -->
+</div>
+<!-- InstanceBeginEditable name="mv" --><!-- InstanceEndEditable -->
+<div id="wapper">
+<!-- InstanceBeginEditable name="contents" -->
+		<div id="service_head"_head class="head-title">
+		<h2>production style</h2>
+			<ul>
+				<li class="fast"><a href="../index.html">HOME</a></li>
+				<li><a href="../service/index.html">サービス</a></li>
+			</ul>	
+		</div><!-- head-title -->
+			<div id="service" class="sub">
+				<h3><img src="../service/images/title.png" alt="サービス一覧" /></h3>
+				
+		
+		<div class="box-left">
+			<h4>Webフロントエンド開発</h4>
+			<p class="left"><img src="../service/images/img.png" alt="" /></p>
+			<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。<br />
+動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+		</div>
+		<div class="box">
+			<h4>CMS・システム開発</h4>
+			<p class="left"><img src="../service/images/img2.png" alt="" /></p>
+			<p class="text">大～小規模までのコーポレートサイト、キャンペーンサイト、LPなどのデザイン制作から、ロゴやポスターなどの紙媒体のデザインも対応しております　</p>
+		</div>
+		
+		<div class="box-left">
+			<h4>デザイン制作</h4>
+			<p class="left"><img src="../service/images/img3.png" alt="" /></p>
+			<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。
+動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+		</div>
+		<div class="box">
+			<h4>スマートフォンアプリケーション</h4>
+			<p class="left"><img src="../service/images/img4.png" alt="" /></p>
+			<p class="text">スマートフォンアプリ本体、またはソーシャルゲームのUI設計開発、タブレット向けアプリケーションのフロントエンド開発、既存システムのレスポンシブ対応など、スマートフォンアプリケーションそのものから、UI設計やフロントのデザイン部分の開発などを得意としております。</p>
+		</div>
+		
+		<div class="box-left">
+			<h4>オンサイトサービス（御社常駐　）</h4>
+			<p class="left"><img src="../service/images/img5.png" alt="" /></p>
+			<p class="text">お客様企業に経験豊富なWeb制作スタッフ（ディレクター・デザイナー・コーダー・プログラマー）が常駐し、最適な形でWebサイトの運用いたします。</p>
+		</div>
+		</div><!-- style -->
+		
+		
+		
+	
+		</div>
+<!-- InstanceEndEditable -->
+		<!-- wapper -->
+</div>
+<div id="footer">
+		<div class="inner">
+				<p class="icon"><img src="../images/icon_home.png" alt="" /></p>
+				<div class="svbox">
+						<h2><a href="../service/index.html">サービス</a></h2>
+						<ul>
+								<li><a href="../service/front/index.html">Webフロントエンド開発</a></li>
+								<li><a href="../service/system/index.html">CMS・システム開発</a></li>
+								<li>デザイン制作</li>
+								<li><a href="../service/appli/index.html">スマートフォンアプリケーション開発</a></li>
+						</ul>
+						<!-- svbox -->
+				</div>
+				<div class="potbox">
+						<h2><a href="../achievement/index.html">実績紹介</a></h2>
+						<ul>
+								<li><a href="../achievement/index.html">詳細ページ</a></li>
+								<li><a href="../achievement/index.html">テキストテキストテキスト</a></li>
+						</ul>
+						<!-- potcon -->
+				</div>
+				<div class="stylebox">
+						<h2><a href="../style/index.html">制作スタイル</a></h2>
+						<ul>
+								<li><a href="../style/index.html#box01">TECHNICAL</a></li>
+								<li><a href="../style/index.html#box02">SYSTEM</a></li>
+						</ul>
+						<!-- stylebox -->
+				</div>
+				<div class="conbox">
+				<h2><a href="../about/index.html">会社概要</a></h2>
+				<!-- conbox --></div>
+				<div class="infobox">
+				<h2><a href="../contact/index.html">お問合せ</a></h2>			
+				<!-- infobox --></div>
+				<address>Copyright(c)2009 DreamVision Co.,Ltd. All Rights Reserved</address>
+				<!-- inner -->
+		</div>
+		<!-- footer -->
+</div>
+</body>
+<!-- InstanceEnd --></html>

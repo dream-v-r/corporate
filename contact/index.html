@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<title>お問合わせ - ドリームビジョン株式会社</title>
+	<link rel="canonical" href="https://www.dream-v.co.jp/contact/">
+	<meta charset="UTF-8">
+	<meta name="description" content="ドリームビジョン株式会社への問合わせページです。当社について、各サービスについて、求人について、採用についてなどお気軽にお問合わせください。">
+	<meta name="keywords" content="人材紹介,クリエイティブ,Web,ホームページ,Webデザイン,グラフィックデザイン,システム開発,小伝馬町,ドリームビジョン株式会社">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="お問合わせ - ドリームビジョン株式会社">
+	<meta property="og:url" content="https://www.dream-v.co.jp/contact/">
+	<meta property="og:description" content="ドリームビジョン株式会社への問合わせページです。当社について、各サービスについて、求人について、採用についてなどお気軽にお問合わせください。">
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/head.html'); ?>
+	<link rel="stylesheet" type="text/css" href="/assets/css/contact.css">
+</head>
+
+<body>
+
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/loadingcover.html'); ?>
+
+	<div id="wrapper">
+
+		<header class="st-header l-fullGrid" id="Header" role="banner">
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/header_simple.html'); ?>
+		</header>
+
+		<main class="st-main grid-3" id="Contact" role="main">
+			<div class="top-container">
+				<div class="top-hero">
+					<div class="top-hero__heading l-grid">
+						<div class="top-hero__heading__inner">
+							<h2 class="top-hero__ttl"><span class="top-hero__ttl__txt--lato">Contact us</span><span class="top-hero__ttl--txt">お問合わせ</span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="c-container">
+				<section class="c-section">
+					<div class="grid-col-3">
+						<p class="top_text">弊社へのご質問・お問合わせは下記のフォームからお願い致します。<br><span>※必須項目は必ずご入力ください。</span></p>
+						<div id="js-ErrorMassage" class="head_error">必須項目が未入力、または誤りがあります。</div>
+						<form action="./postmail/postmail.cgi" method="post" id="js-ContactFrom">
+							<table id="contact_table" class="clear">
+								<tr>
+									<th>お問合わせ種類<span class="required ffUnique">必須</span></th>
+									<td>
+										<select name="inquiry" class="js-InquirySelect">
+											<option value="" selected>選択してください</option>
+											<option value="サービスに関するお問合わせ">サービスに関するお問合わせ</option>
+											<option value="採用情報に関するお問合わせ">採用情報に関するお問合わせ</option>
+											<option value="その他お問合わせ">その他お問合わせ</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<th>お名前<span class="required ffUnique">必須</span></th>
+									<td class="name_input_box"><span class="fname">姓</span><input type="text" name="sei" class="sei"><br class="ad_br"><span class="name">名</span><input type="text" name="mei">
+									</td>
+								</tr>
+								<tr>
+									<th>ふりがな<span class="required ffUnique">必須</span></th>
+									<td class="name_input_box name_input_box_furi"><span class="furi_fname">せい</span><input type="text" name="furi_sei" class="sei"><br class="ad_br"><span class="furi_name">めい</span><input type="text" name="furi_mei">
+									</td>
+								</tr>
+								<tr>
+									<th>会社名</th>
+									<td><input type="text" name="company" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>メールアドレス<span class="required ffUnique">必須</span></th>
+									<td><input type="email" value="" name="email" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>メールアドレス(確認)<span class="required ffUnique">必須</span></th>
+									<td><input type="email" value="" name="mail_check" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>電話番号</th>
+									<td><input type="text" name="tel" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>ご住所</th>
+									<td class="addlist"><span>郵便番号</span><br class="ad_br"><input type="text" name="add0" class="input_add_1"><br><span>都道府県</span><br class="ad_br"><input type="text" name="add1" class="input_add_1"><br><span>市区町村</span><br class="ad_br"><input type="text" name="add2" class="input_add"><br><span>丁目番地</span><br class="ad_br"><input type="text" name="add3" class="input_add"><br><span>ビル・<br class="ad_br_s">マンション名</span><br class="ad_br"><input type="text" name="add4" class="input_add">
+									</td>
+								</tr>
+								<tr>
+									<th class="inquiry_area">お問合わせ内容<span class="required ffUnique">必須</span></th>
+									<td><textarea name="inquiry_area"></textarea></td>
+								</tr>
+							</table>
+							<p class="text_box_title">個人情報の取扱について</p>
+							<div class="text_box">
+								<dl>
+									<dt>（１）事業者の氏名または名称</dt>
+									<dd>ドリームビジョン株式会社</dd>
+									<dt>（２）個人情報保護管理者</dt>
+									<dd>代表取締役　前田 俊樹</dd>
+									<dt>（３）個人情報の利用目的</dt>
+									<dd>・お問合わせの場合：お問合わせいただいた内容に回答するため<br>・採用に関してのお問合わせ場合：採用についてのお問合わせ、採用応募にエントリーいただいた内容に回答するため</dd>
+									<dt>（４）個人情報の第三者提供について</dt>
+									<dd>取得した個人情報は法令等による場合を除いて第三者に提供することはありません。</dd>
+									<dt>（５）個人情報の取扱いの委託について</dt>
+									<dd>取得した個人情報の取扱いの全部又は、一部を委託することはありません。
+									</dd>
+									<dt>（６）個人情報を与えなかった場合に生じる結果</dt>
+									<dd>個人情報を与えることは任意です。個人情報に関する情報の一部をご提供いただけない場合は、お問い合わせ内容に回答できない可能性があります。</dd>
+									<dt>（７）開示対象個人情報の開示等および問い合わせ窓口について</dt>
+									<dd>ご本人からの求めにより、当社が保有する開示対象個人情報の利用目的の通知・開示・内容の訂正・追加または削除・利用の停止・消去および第三者への提供の停止（「開示等」といいます。）に応じます。<br>開示等に応ずる窓口は下記個人情報問合せ窓口になります。
+									</dd>
+									<dt>（８）本人が容易に認識できない方法による個人情報の取得</dt>
+									<dd>クッキーやウェブビーコン等を用いるなどして、本人が容易に認識できない方法による個人情報の取得は行っておりません。
+									</dd>
+									<dt>（９）個人情報の安全管理措置について</dt>
+									<dd>取得した個人情報については、漏洩、減失またはき損の防止と是正、その他個人情報の安全管理のために必要かつ適切な措置を講じます。<br>お問合せへの回答後、取得した個人情報は当社内において削除致します。
+									</dd>
+									<dt>（１０）個人情報保護方針</dt>
+									<dd>当社ホームページの個人情報保護方針をご覧下さい。</dd>
+									<dt>（１１）当社の個人情報の取扱いに関する苦情、相談等の問合せ先</dt>
+									<dd>
+										<table class="privacy-tbl">
+										<tbody>
+										<tr>
+										<th>窓口の<br class="hidden-lg visible-sm-block">名称</th>
+										<th>個人情報苦情相談問合せ窓口</th>
+										</tr>
+										<tr>
+										<td>連絡先</td>
+										<td>
+										<span>住所</span>：〒103-0001東京都中央区日本橋小伝馬町9-10 小伝馬町ビル5階<br><span>電話</span>：03-6661-9626<br><span>FAX</span>：03-6661-9629</td>
+										</tr>
+											</tbody>
+										</table>
+									</dd>
+								</dl>
+							</div>
+							<div class="footer_box">
+								<input type="checkbox" name="cons" id="cons_checkbox">
+								<label for="cons_checkbox" id="cons_checkbox" class="cons_label"><span class="label_text">上記内容に同意する</span></label><span class="required ffUnique required_cons">必須</span>
+							</div>
+							<p class="submit_box is-hover"><input type="submit" value="確認画面へ" class="submit_btn_inner"></p>
+						</form>
+					</div>
+
+				</section>
+			</div>
+		</main>
+
+		<div class="breadcrumbs">
+			<div class="breadcrumbs l-grid">
+				<ol class="breadcrumbs__list">
+					<li><a href="/" class="breadcrumbs__item">ホーム</a></li>
+					<li><span>お問合わせ</span></li>
+				</ol>
+			</div>
+		</div>
+
+		<footer class="st-footer" id="Footer" role="contentinfo">
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/footer_simple.html'); ?>
+		</footer>
+
+	</div>
+
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/inc/foot.html'); ?>
+	<script type="text/javascript" src="/assets/js/lib/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="/assets/js/contactValidate.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,444 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, em, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 9px;
+}
+
+
+/* header
+-------------------------------------------- */
+
+header {
+    overflow: hidden;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+header #mainLead {
+    margin: 5px 0;
+}
+
+header h1 {
+    width: 57.5%;
+    float: left;
+    text-align: left;
+}
+
+#headerBtn a {
+    display: block;
+    width: 40%;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: url("../images/main_btn_arrow.png") no-repeat 97% center;
+    background-color: #fcb620;
+    background-size: 0.5rem;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: left;
+}
+
+#headerBtn a span {
+    font-size: 10px;
+}
+
+
+/* nav
+-------------------------------------------- */
+
+#main_nav {
+    overflow: hidden;
+}
+
+#main_nav li {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#main_nav li a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background: url("../images/nav_arrow.png") no-repeat center 90%;
+    background-size: 1rem;
+    background-color: #fcb620;
+    border-bottom: 3px solid #e2a31d;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 72px;
+}
+
+.rightBorder a {
+    border-right: 3px solid #e2a31d;
+}
+
+
+/* article
+-------------------------------------------- */
+
+.articleTitle {
+    padding: 50px 0 25px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+.articleTitle span {
+    display: block;
+    font-size: 12px;
+}
+
+#reason .articleTitle {
+    background: url("../images/blueUlBk01.jpg");
+}
+
+#reason-lsit>* {
+    padding: 0 10px;
+}
+
+#reason-lsit>li {
+    overflow: hidden;
+    padding-bottom: 20px;
+    background: url("../images/blueUlBk02.jpg");
+}
+
+#reason-lsit li.uniqueBk {
+    background: url("../images/blueUlBk03.png");
+}
+
+#reason-lsit li div{
+  text-align: center;
+}
+
+#reason-lsit li h3 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #ffffff;
+    text-align: center;
+}
+
+#reason-lsit li ul li {
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#merrit .articleTitle {
+    color: #000000;
+}
+
+#merrit .merrit-list li {
+    position: relative;
+    border-bottom: 5px solid #0076e4;
+}
+
+#merrit .merrit-list li h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0 25px;
+    background-color: #fafafa;
+    font-size: 24px;
+    color: #0078e8;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.registrationBtn {
+    padding: 0 10px 30px;
+    background: url("../images/registrationBk.png");
+    background-size: 100%;
+}
+
+.registrationBtn p {
+    background: url("../images/registrationbtnBk.png");
+}
+
+.registrationBtn p a {
+    display: block;
+    width: 96%;
+    margin: 0 auto;
+    padding: 16px 0;
+    border: 2px solid #ffffff;
+    background: url("../images/main_btn_arrow.png") no-repeat 90% center;
+    background-size: 0.8rem;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#exampleWork .articleTitle {
+    color: #000000;
+}
+
+.squareList {
+    margin-bottom: 28px;
+}
+
+.squareList li {
+    margin-top: 20px;
+}
+
+.squareList li:first-child {
+    margin-top: 0;
+}
+
+#exampleWork h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#exampleWork .circleList {
+    overflow: hidden;
+    width: 96%;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border: 4px solid #e5e5e5;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#exampleWork .circleList li {
+    float: left;
+    width: 50%;
+}
+
+.registrationBtnUnique span {
+    font-size: 18px;
+}
+
+#step .articleTitle {
+    color: #000000;
+}
+
+#registrationForm {
+    background-color: #f0f0f0;
+}
+
+#registrationForm .articleTitle {
+    color: #000000;
+}
+
+form {
+    margin: 0 10px;
+    padding-bottom: 50px;
+}
+
+.formList {
+    font-size: 16px;
+}
+
+.formList label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.formList li {
+    margin-bottom: 25px;
+}
+
+.formList li .required {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0 10px;
+    background-color: #a0a0a0;
+    line-height: 17px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0;
+}
+
+form select {
+    margin-bottom: 15px;
+    padding: 0 7px;
+    background: url("../images/Icon_select_list.png") no-repeat 95% center, url("../images/select_bk.png") repeat-x center center;
+    font-size: 14px;
+}
+
+.formList .file {
+    width: 50%;
+    height: 40px;
+    float: left;
+    margin: 0 15px 10px 0;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: #707070;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fileList-text {
+    font-size: 9px;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.fileList-text:before {
+    content: "※";
+}
+
+.pdfSize {
+    clear: both;
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.url {
+    padding: 0 6px;
+}
+
+textarea {
+    height: 100px;
+}
+
+#aboutPersonalInfo h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.personal {
+    overflow: auto;
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 18px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+#doui {
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#submit-btn {
+    text-align: center;
+}
+
+#submit-btn input[type="submit"] {
+    width: 93%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0078e8;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#access {
+    margin: 0 10px;
+}
+
+#access .articleTitle {
+    color: #000000;
+}
+
+#accessMap {
+    margin-bottom: 50px;
+}
+
+#accessMap li {
+    margin-bottom: 15px;
+    padding: 10px 10px 38px 10px;
+    background-color: #e5e5e5;
+}
+
+#accessMap li h3 {
+    margin: 10px 0 12px;
+    font-size: 16px;
+    color: #0078e8;
+}
+
+#accessMap li p {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#bnr {
+    margin-bottom: 50px;
+}
+
+#bnr li:first-child {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 10px 0;
+    background: url("../images/blueUlBk01.jpg");
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+footer address {
+    font-size: 9px;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 45px;
+    right: 0;
+    width: 50px;
+    height: 45px;
+    background-color: #fcb620;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#topBtn a {
+    display: block;
+    padding-top: 25px;
+    background: url("../images/topBtn_arrow.png") no-repeat center 5px;
+    text-decoration: none;
+    color: #ffffff;
+}

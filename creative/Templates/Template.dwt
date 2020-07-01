@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" >
+<head>
+<meta name="description" content="Dream Vision Co..LTD." />
+<meta name="keywords" content="Web・DTP・IT・OFFICEのお仕事探しはDream Vision" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="../css/owl.theme.css" />
+<!-- TemplateBeginEditable name="htmlHead" -->
+
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="script" -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="../js/owl.carousel.js" type="text/javascript"></script>
+<script src="../js/owl.carousel.js"></script>
+<script>
+$(function(){
+
+    $('#mv').owlCarousel({
+
+        slideSpeed  : 20,
+
+            // スライドのスピードを設定します。ミリ秒指定。
+
+        responsive:true,
+
+            // レスポンシブかどうかをtrue,falseで指定します。デフォルトはfalse(レスポンシブはオフ）。
+
+        items : 1,
+
+            // 表示させる要素の数を指定します。3にすれば3つ表示。
+			
+	navigation : true, //ナビゲーションの有無
+    navigationText : ["prev","next"], //ナビゲーションのテキスト
+
+    });
+
+});
+
+</script>
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>WEB制作会社DreamVision</title>
+<!-- TemplateEndEditable -->
+
+
+</head>
+<body>
+<div id="header">
+		<h1>WEB制作会社DreamVision</h1>
+		<div class="inner">
+				<p class="logo"><a href="../header"><img src="../images/logo.png" alt="WEB制作会社DreamVision" /></a></p>
+				<ul>
+						<li><a href="../index.html"><img src="../images/nav_home.png" alt="ホーム" /></a></li>
+						<li><a href="../service/index.html"><img src="../images/nav_sv.png" alt="サービス" /></a></li>
+						<li><a href="../achievement/index.html"><img src="../images/nav_port.png" alt="実績紹介" /></a></li>
+						<li><a href="../style/index.html"><img src="../images/nav_style.png" alt="制作スタイル" /></a></li>
+						<li><a href="../contact/index.html"><img src="../images/nav_info.png" alt="お問い合わせ" /></a></li>
+				</ul>
+				<!-- inner -->
+		</div>
+		<!-- header -->
+</div>
+<!-- TemplateBeginEditable name="mv" -->
+<div id="mv">
+		<p><img src="../images/mv.png" alt="" /></p>
+		<p><img src="../images/mv.png" alt="" /></p>
+		<p><img src="../images/mv.png" alt="" /></p>
+		
+		<!-- mv -->
+</div>
+<!-- TemplateEndEditable -->
+<div id="wapper">
+<!-- TemplateBeginEditable name="contents" -->
+		<div id="headline">
+				<div id="h_sv">
+						<h2><img src="../images/icon_sv.png" alt="サービス" /></h2>
+						<p class="text">スタイルでは、ウェブマーケティング会社としての実績を活かし、SEOに強いウェブサイトをご提案致します。</p>
+						<p class="more"><a href="#">詳細はこちら</a></p>
+						<!-- h_sv -->
+				</div>
+				<div id="h_port">
+						<h2><img src="../images/icon_port.png" alt="実績紹介" /></h2>
+						<p class="text">スマートフォンの爆発的な普及によって、以前よりも簡単に「検索」ができるようになりました。</p>
+						<p class="more"><a href="#">詳細はこちら</a></p>
+						<!-- h_port -->
+				</div>
+				<div id="h_style">
+						<h2><img src="../images/icon_style.png" alt="制作スタイル" /></h2>
+						<p class="text">ユーザーは無意識のうちに自分が訪れたページが自分の目的に合ったものかを判断します。</p>
+						<p class="more"><a href="#">詳細はこちら</a></p>
+						<!-- h_style -->
+				</div>
+				<!-- headline -->
+		</div>
+		<div id="portcon">
+				<h2><img src="../images/head_port.png" alt="制作紹介一覧" /></h2>
+				<p class="item">img</p>
+				<p class="item">img</p>
+				<p class="item2">img</p>
+				<!-- portcon -->
+		</div>
+		<div id="svcon">
+				<h2><img src="../images/head_sv.png" alt="サービス一覧" /></h2>
+				<div class="leftcon">
+						<p class="pic">img</p>
+						<h3>Webフロントエンド開発</h3>
+						<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。<br />
+								動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+						<!-- leftcon -->
+				</div>
+				<div class="rightcon">
+						<p class="pic">img</p>
+						<h3>CMS・システム開発</h3>
+						<p class="text">WordPressまたはMovableType™等をプラットフォームにしたCMS開発に強みを持っております。<br />
+								ご要望に応じてフルスクラッチもしくは他のフレームワークを使った開発も可能です。</p>
+						<!-- rightcon -->
+				</div>
+				<div class="leftcon">
+						<p class="pic">img</p>
+						<h3>Webフロントエンド開発</h3>
+						<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。<br />
+								動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+						<!-- leftcon -->
+				</div>
+				<div class="rightcon">
+						<p class="pic">img</p>
+						<h3>スマホアプリケーション開発</h3>
+						<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。<br />
+								動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+						<!-- rightcon -->
+				</div>
+				<!-- svcon -->
+		</div>
+		<div id="stylecon">
+				<h2><img src="../images/head_style.png" alt="制作スタイル" /></h2>
+				<div class="leftcon">
+						<h3>TECHNICAL</h3>
+						<p class="pic">img</p>
+						<p>デザインは決まっている！<br />
+								コーディングとシステム開発はどうしようか・・・そんな時はご相談下さい。<br />
+								弊社の開発チームがバックアップします。</p>
+						<!-- leftcon -->
+				</div>
+				<div class="rightcon">
+						<h3>SYSTEM</h3>
+						<p class="pic">img</p>
+						<p>大規模なWebサイト・システム開発案件にも対応。<br />
+								外部のプログラマー・コーダーをアサインすることで大規模案件に対応したチームを構築することも可能です。</p>
+						<!-- rightcon -->
+				</div>
+				<!-- stylecon -->
+		</div>
+<!-- TemplateEndEditable -->
+		<!-- wapper -->
+</div>
+<div id="footer">
+		<div class="inner">
+				<p class="icon"><img src="../images/icon_home.png" alt="" /></p>
+				<div class="svbox">
+						<h2><a href="../service/index.html">サービス</a></h2>
+						<ul>
+								<li><a href="../service/front/index.html">Webフロントエンド開発</a></li>
+								<li><a href="../service/system/index.html">CMS・システム開発</a></li>
+								<li>デザイン制作</li>
+								<li><a href="../service/appli/index.html">スマートフォンアプリケーション開発</a></li>
+						</ul>
+						<!-- svbox -->
+				</div>
+				<div class="potbox">
+						<h2><a href="../achievement/index.html">実績紹介</a></h2>
+						<ul>
+								<li><a href="../achievement/index.html">詳細ページ</a></li>
+								<li><a href="../achievement/index.html">テキストテキストテキスト</a></li>
+						</ul>
+						<!-- potcon -->
+				</div>
+				<div class="stylebox">
+						<h2><a href="../style/index.html">制作スタイル</a></h2>
+						<ul>
+								<li><a href="../style/index.html#box01">TECHNICAL</a></li>
+								<li><a href="../style/index.html#box02">SYSTEM</a></li>
+						</ul>
+						<!-- stylebox -->
+				</div>
+				<div class="conbox">
+				<h2><a href="../about/index.html">会社概要</a></h2>
+				<!-- conbox --></div>
+				<div class="infobox">
+				<h2><a href="../contact/index.html">お問合せ</a></h2>			
+				<!-- infobox --></div>
+				<address>Copyright(c)2009 DreamVision Co.,Ltd. All Rights Reserved</address>
+				<!-- inner -->
+		</div>
+		<!-- footer -->
+</div>
+</body>
+</html>

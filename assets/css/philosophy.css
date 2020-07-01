@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+
+/*====================================
+
+	Philosophy
+
+====================================*/
+/* index */
+#Philosophy .top-hero {
+	padding-top: 564px;
+	background-image: url(/assets/images/philosophy/hero.jpg);
+}
+@media screen and (max-width: 991px) {
+	#Philosophy .top-hero { padding-top: 344px; }
+	#Philosophy.grid-2 .top-hero__heading__inner { top: 49.999999%; }
+	#Philosophy .top-hero__ttl__txt--lato { margin: 0 0 20px; }
+	#Philosophy .top-hero__copy { margin: 35px 0 0; }
+	#Philosophy .top-hero__copy--rock {
+		font-size: 26px;
+		padding: 39px 0 0;
+		margin: 0 0 24px;
+	}
+	#Philosophy .top-hero__copy--txt { font-size: 22px; }
+	#Philosophy .top-hero__copy--txt > span {
+		font-size: 16px;
+		margin: 16px 0 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	#Philosophy .top-hero { padding-top: 113px; }
+	#Philosophy.grid-2 .top-hero__heading__inner { top: 112.4%; }
+	#Philosophy .top-hero__ttl__txt--lato { margin: 0 0 12px; }
+	#Philosophy .top-hero__copy {
+		color: #3e4244;
+		margin: 54px 0 0;
+	}
+	#Philosophy .top-hero__copy:before { content: none; }
+	#Philosophy .top-hero__copy--rock,
+	#Philosophy .top-hero__copy--txt,
+	#Philosophy .top-hero__copy--txt > span {
+		text-shadow: none;
+	}
+	#Philosophy .top-hero__copy--rock {
+		font-size: 18px;
+		padding: 0;
+		margin: 0 0 15px;
+	}
+	#Philosophy .top-hero__copy--txt { font-size: 15px; }
+	#Philosophy .top-hero__copy--txt > span {
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 1.2857142;
+		margin: 2px 0 0;
+	}
+	#Philosophy .c-container {
+		margin: 132px 0 0;
+		padding: 20px 0 0;
+	}
+}
+
+/* message */
+#PhilosophyMessage .top-hero { background-image: url(/assets/images/philosophy/message/hero.jpg); }
+.message-head {
+	margin: 0 0 24px;
+	position: relative;
+}
+.message-head__ttl {
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 0 0 16px rgba(86,95,98,.42);
+	position: absolute;
+	top: 50%;
+	left: 48px;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+.message-txt {
+	line-height: 28px;
+	margin: 0 0 18px;
+}
+.message-date {
+	font-size: 14px;
+	line-height: 21px;
+	text-align: right;
+	padding: 12px 0 0;
+}
+.message-date > span {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 5px 0 0;
+}
+@media screen and (max-width: 991px) {
+	.message-head__ttl { font-size: 24px; }
+}
+@media screen and (max-width: 767px) {
+	.message-head { margin: 0 0 12px; }
+	.message-head__img { margin: 0 0 19px; }
+	.message-head__ttl {
+		color: #3e4244;
+		font-size: 15px;
+		line-height: 1;
+		text-shadow: none;
+		position: static;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+	.message-txt {
+		font-size: 14px;
+		line-height: 1.5714285;
+		margin: 0 0 5px;
+	}
+	.message-date {
+		font-size: 12px;
+		line-height: 1.25;
+		padding: 13px 0 0;
+	}
+	.message-date > span {
+		font-size: 16px;
+		margin: 8px 0 0;
+	}
+}
+
+/* policy */
+#PhilosophyPolicy .top-hero { background-image: url(/assets/images/philosophy/policy/hero.jpg); }
+.policy_list {
+	display: table;
+	width:100%;
+	color:#fff;
+	padding: 33px 0;
+	margin-bottom:2px;
+}
+.policy_list:first-child { background-color:#2383c5; }
+.policy_list:nth-child(2) { background-color:#369387; }
+.policy_list:nth-child(3) { background-color:#6b9b64; }
+.policy_list:nth-child(4) {
+	background-color:#95815f;
+	margin-bottom:0
+}
+.policy_list_left {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width:352px;
+	padding:43px 0 0;
+}
+.policy_list_right {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right:60px;
+	width:560px;
+}
+.policy_list_title {
+	font-size:30px;
+	line-height: 1;
+	margin: 0 0 22px;
+}
+.policy_list_text {
+	font-size:16px;
+	line-height: 1.75;
+}
+.policy_list_item {
+	position: relative;
+	padding-left:33px;
+	line-height:1.5;
+	margin-top:17px;
+}
+.policy_list_item:first-child { margin-top:17px; }
+.policy_list_item:nth-child(2) { margin-top:22px; }
+.policy_list_item:before {
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#fff;
+	position: absolute;
+	border-radius: 50%;
+	left:6px;
+	top:4px;
+}
+@media screen and (max-width: 991px){
+	.policy_list_left { width:36.526946%; }
+	.policy_list_right {
+		width:63.473054%;
+		padding-right:40px;
+	}
+	.policy_list_text { line-height: 1.5; }
+	.policy_list_title { font-size:24px; }
+	.policy_list img { width:85.655737%; }
+	.policy_list:nth-child(3) { padding:40px 0; }
+}
+@media screen and (max-width: 767px){
+	.policy_list img { width:36.034%; }
+	.policy_list_right,
+	.policy_list_left {
+		width:100%;
+		display: block;
+		text-align: center;
+	}
+	.policy_list_right { padding:0 15px; }
+	.policy_list_left { padding-top:0; }
+	.policy_list_title {
+		font-size:16px;
+		margin-bottom:9px;
+	}
+	.policy_list_text { font-size:14px; }
+	.policy_list_item {
+		font-size:14px;
+		padding-left:0;
+		text-align: left;
+	}
+	.policy_list_item:first-child { margin-top:30px; }
+	.policy_list_item:before {
+		left:0;
+		right:0;
+		margin:auto;
+		top:-17px;
+	}
+	.policy_list:nth-child(n) { padding:20px 0; }
+}

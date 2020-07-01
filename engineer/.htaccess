@@ -1,0 +1,8 @@
+#拡張子がHTMLのファイルをPHPとして実行させる
+
+php_flag mbstring.encoding_translation off
+php_value default_charset "UTF-8"
+
+#AddType "text/html; charset=UTF-8" .html
+
+#エラーを出力する場合

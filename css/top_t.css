@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* main_wrap */
+#main_wrap {
+	clear: both;
+	width: 950px;
+	height: 350px;
+}
+
+
+/* #link_wrap */
+#link_wrap {
+	width: 950px;
+	margin: 0px 0px 10px 0px;
+	font-size: 86%;
+	line-height: 1.6;
+	color: #b0b0b0;
+}
+
+#link_wrap .agent {
+	width: 238px;
+	float: left;
+	display: inline;
+}
+
+#link_wrap .agent ul {
+	padding: 6px 0px 0px 20px;
+	height: 95px;
+	background-image: url(../img/agent_bg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .agent ul .link_right {
+	float: right;
+	padding: 0px 20px 0px 12px;
+}
+
+#link_wrap .agent li {
+	padding: 0px 0px 0px 12px;
+	background-image: url(../img/icon_agent.gif);
+	background-position: left 3px;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .design {
+	width: 237px;
+	float: left;
+	display: inline;
+}
+
+#link_wrap .design ul {
+	padding: 6px 0px 0px 20px;
+	height: 95px;
+	background-image: url(../img/design_bg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .design ul .link_right {
+	float: right;
+	padding: 0px 20px 0px 12px;
+}
+
+#link_wrap .design li {
+	padding: 0px 0px 0px 12px;
+	background-image: url(../img/icon_design.gif);
+	background-position: left 3px;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .education {
+	width: 237px;
+	float: left;
+	display: inline;
+}
+
+#link_wrap .education ul {
+	padding: 6px 0px 0px 20px;
+	height: 95px;
+	background-image: url(../img/education_bg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .education ul .link_right {
+	float: right;
+	padding: 0px 20px 0px 12px;
+}
+
+#link_wrap .education li {
+	padding: 0px 0px 0px 12px;
+	background-image: url(../img/icon_education.gif);
+	background-position: left 3px;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .system {
+	width: 238px;
+	float: left;
+	display: inline;
+}
+
+#link_wrap .system ul {
+	padding: 6px 0px 0px 20px;
+	height: 95px;
+	background-image: url(../img/system_bg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#link_wrap .system ul .link_right {
+	float: right;
+	padding: 0px 20px 0px 12px;
+}
+
+#link_wrap .system li {
+	padding: 0px 0px 0px 12px;
+	background-image: url(../img/icon_system.gif);
+	background-position: left 3px;
+	background-repeat: no-repeat;
+}
+
+
+
+/* #content_wrap */
+#content_wrap {
+	width: 950px;
+	height: 440px;
+	margin: 8px 0px 32px 0px;
+	float: left;
+	display: inline;
+	background: #FFFFFF;
+	border: #ebebeb 1px solid;
+	/* background-image: url(../img/content_bg01.jpg); */
+	/* background-position: left top; */
+	/* background-repeat: no-repeat; */
+	clear: both;
+}
+
+#content_wrap .content_bg {
+	width: 950px;
+	height: 440px;
+	/* background-image: url(../img/content_bg03.jpg); */
+	/* background-position: bottom; */
+	/* background-repeat: no-repeat; */
+	clear: both;
+}
+
+#content_wrap #left_wrap {
+	width: 630px;
+	float: left;
+	display: inline;
+}
+
+#content_wrap #left_wrap dt {
+	width: 610px;
+	margin: 20px 0px 0px 20px;
+}
+
+#content_wrap #left_wrap ul {
+	width: 610px;
+	height: 180px;
+	margin: 15px 0px 30px 20px;
+	overflow: auto;
+}
+
+#content_wrap #left_wrap ul li {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 12px;
+	line-height: 1.4;
+}
+
+#content_wrap #left_wrap .news li {
+	background-image: url(../img/oshirase_icon.gif);
+	background-position: left 4px;
+	background-repeat: no-repeat;
+	font-size: 90%;
+	color: #3c3c3c;
+}
+
+#content_wrap #left_wrap .news {
+	width: 610px;
+	float: left;
+	display: inline;
+}
+
+#content_wrap #left_wrap .bnr li {
+	width: 284px;
+	float: left;
+}
+
+#content_wrap #left_wrap ul li .kaisya {
+	width: 518px;
+	display:block;
+	padding: 0px 0px 0px 55px;
+	background-image: url(../img/icon_kaisya.gif);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+}
+#content_wrap #left_wrap ul li .kyouiku {
+	width: 518px;
+	display:block;
+	padding: 0px 0px 0px 55px;
+	background-image: url(../img/icon_kyouiku.gif);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+}
+
+#content_wrap #left_wrap ul li .jinzai {
+	width: 518px;
+	display:block;
+	padding: 0px 0px 0px 55px;
+	background-image: url(../img/icon_jinzai.gif);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+}
+
+#content_wrap #left_wrap ul li .seisaku {
+	width: 518px;
+	display:block;
+	padding: 0px 0px 0px 55px;
+	background-image: url(../img/icon_seisaku.gif);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+}
+
+#content_wrap #left_wrap ul li .system {
+	width: 518px;
+	display:block;
+	float: left;
+	display: block;
+	padding: 0px 0px 0px 55px;
+	background-image: url(../img/icon_system02.gif);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+}
+
+
+#content_wrap #right_wrap {
+	width: 320px;
+	float: left;
+	display: inline;
+}
+
+#content_wrap #right_wrap p {
+	float: left;
+	display: inline;
+	padding: 30px 0px 30px 20px;
+}
+
+#content_wrap #right_wrap ul {
+	padding: 0px 0px 0px 20px;
+}
+
+#content_wrap #right_wrap ul li {
+	padding: 0px 0px 6px 0px;
+}
+
+#content_wrap #right_wrap ul .jigyou {
+	float: left;
+	margin: 0px 6px 0px 0px;
+}
+
+.pdf {
+padding-right: 17px;
+background-image: url(../pdf/pdf.gif);
+background-position: 125px 2px;
+background-repeat: no-repeat;
+}
+
+.not_flash {
+background-image: url(../img/main_img.jpg);
+background-position: left top;
+background-repeat: no-repeat;
+}
+
+.kikin_pdf02 {
+	margin: 0px 0px 0px 54px;
+	font-size: 90%;
+	font-weight: bold;
+}
+

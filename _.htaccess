@@ -1,0 +1,18 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+
+# CGIÇé¿çs
+Options +ExecCGI
+AddType application/x-httpd-cgi .cgi
+AddType application/x-httpd-cgi .pl
+
+Options Indexes
+#ErrorDocument 403 http://www.dream-v.co.jp
+#ErrorDocument 404 http://www.dream-v.co.jp
+#ErrorDocument 500 http://www.dream-v.co.jp
+
+Redirect permanent /kikin/ http://www.dream-v.co.jp/kikin20110803/
+Redirect permanent /kikin20110308/ http://www.dream-v.co.jp/kikin20110803/
+Redirect permanent /kikin20110725/ http://www.dream-v.co.jp/kikin20110803/
+order deny,allow

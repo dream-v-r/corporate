@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="head" -->
+<?php
+	$Path = "../";
+	include($Path.'Include/common.php');
+
+//=============================================================================
+//ページ設定
+	$title = "｜".$com_title;
+	$h1 = "｜".$com_h1;
+	$description = $com_description."";
+	$keywords = "". $com_keywords;
+// SEO
+	$canonical = $com_canonical . "service/index.html";
+//=============================================================================
+	include($Path.'Include/htmlHead.tpl');
+?>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="other" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<?php include($Path.'Include/header.tpl'); ?>
+<!-- TemplateBeginEditable name="main" -->
+<div id="mv" class="sub">
+	<div id="service_head" class="head-title">
+		<h2>service</h2>
+		<ul>
+				<li class="fast"><a href="../../index.html">HOME</a></li>
+				<li class="fast"><a href="../index.html">サービス</a></li>
+				<li><a href="#">スマートフォンアプリケーション開発</a></li>
+		</ul>
+	</div>
+<!-- mv --></div>
+<div id="wapper">
+<?php include($Path.'Include/sidenavi.tpl'); ?>
+<!-- wapper --></div>
+<!-- TemplateEndEditable -->
+<?php include($Path.'Include/footer.tpl'); ?>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header_wrap {
+	background: #fff;
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	clear: both;
+	border-top: #00bcea 4px solid;
+}
+
+div.w980{
+	width: 980px;
+	margin: 0px auto;
+	clear: both;
+	}
+
+div.navi{
+	width: 100%;
+	/* margin: 0px auto; */
+	/* float: left; */
+	/* clear: both; */
+	overflow: hidden;
+	background-color: #001f45;
+}
+
+#header_wrap h1 {
+	width: 900px;
+	margin: 0px 0px 20px 20px;
+	padding: 16px 0px 0px 0px;
+	float: left;
+	display: inline;
+}
+
+ol.nav{
+	/* width: 940px; */
+	/* margin: 0px auto; */
+	/* overflow:hidden; */
+}
+
+ol.nav li{
+float:left;
+}
+
+
+
+#header_wrap h2 {
+	width: 300px;
+	display: inline;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 10px 0px;
+	float: left;
+}
+
+#header_wrap ul {
+	float: right;
+	padding: 40px 0px 0px 0px;
+	margin: 0px 20px 0px 0px;
+	display: inline;
+}
+
+#header_wrap ul li {
+	width: auto;
+	float: left;
+	display: inline;
+	font-size: 86%;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 10px 0px 0px;
+	border-right: 1px solid #333;
+	line-height: 1.4;
+}
+
+#header_wrap ol {
+	width: 960px;
+	margin: 0px auto;
+	/* float: left; */
+	/* display: inline; */
+	/* padding-bottom: 4px; */
+}
+
+#header_wrap ol .menu01 {
+	width: 120px;
+	float: left;
+}
+
+#header_wrap ol .menu02 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu03 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu04 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu05 {
+	width: 164px;
+	float: left;
+}
+
+#header_wrap ol .menu06 {
+	width: 164px;
+	float: left;
+}
+

@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+#reference_wrap {
+	width: 900px;
+	float: left;
+	display: inline;
+	border-bottom: 10px solid #676767;
+	margin-bottom: 10px;
+	color: #582d00;
+}
+
+
+#reference_wrap h3 {
+	width: 800px;
+	margin: 0px 0px 18px 14px;
+	padding-left: 10px;
+	font-size: 180%;
+	font-weight: bold;
+	line-height: 1.4;
+	float: left;
+	display: inline;
+	border-left: 7px solid #000;
+}
+
+.reference_tit {
+	width: 850px;
+	margin: 30px 0px 25px 17px;
+	padding: 0px 0px 10px 3px;
+	float: left;
+	display: inline;
+	background-image: url(../img/bottom_line.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 40px;
+}
+
+.reference_tit h2 {
+	width: 650px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 3px;
+	float: left;
+	display: inline;
+	font-size: 220%;
+	font-weight: bold;
+	clear: both;
+	color: #713a00;
+}
+
+.reference_tit p {
+	margin: 20px 30px 0px 0px;
+	float: right;
+	font-weight: bold;
+	color: #acacac;
+}
+
+.reference_txt {
+	width: 790px;
+	margin: 0px 30px 40px 18px;
+}
+
+
+#reference_box {
+	width: 880px;
+	margin: 0px 0px 50px 5px;
+	float: left;
+	display: inline;
+	
+}
+
+#reference_box li {
+	width: 195px;
+	margin: 0px 0px 7px 6px ;
+	padding: 7px 7px 5px 7px;
+	float: left;
+	background-image: url(../img/box_bg.gif);
+	background-repeat: no-repeat;
+	display: inline;
+
+}
+
+#reference_box img {
+	vertical-align: bottom;
+}

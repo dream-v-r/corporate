@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+/*====================================
+
+	Business
+
+====================================*/
+.business-container .grid-col-3__body {
+	border-bottom: 2px solid #f6f7f8;
+	padding: 0 0 34px;
+	margin: 0 0 40px;
+}
+.head_text {
+	text-align: center;
+	line-height: 1.75;
+	margin: 0 0 43px;
+}
+.head_text > p:first-child { margin: 0 0 18px; }
+.business_list {
+	float:left;
+	width: 31.14035%;
+	margin: 0 3.28947368% 0 0;
+}
+.business_list:last-child { margin:0; }
+.circle_cell {
+	display: table;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+}
+.circle {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #3e4244;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+.business_list_text {
+	margin: 24px 0 0;
+	font-size: 14px;
+	line-height: 1.714285714285714;
+}
+.business_text-box{
+	border:2px solid #eaebeb;
+	text-align: left;
+	padding:27px 34px;
+}
+.business_text-box{
+	font-size:14px;
+	line-height: 1.5;
+}
+.business_text-box h3{
+	font-size:16px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom:18px;
+}
+.business_text-box dt{ font-weight: bold; }
+.business_text-box dd:nth-child(5) { margin-bottom:16px; }
+.business_text-box__secondary{ margin-top:28px; }
+@media screen and (max-width: 767px) {
+	.business_list {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	.head_text {
+		font-size: 14px;
+		line-height: 1.5714285;
+		margin: 0 0 20px;
+	}
+	.head_text > p:first-child { margin: 0 0 20px; }
+	.business_list_text { margin: 10px 0 0; }
+	.business_list { margin: 0 0 12px; }
+	.business_list:last-child { margin: 0; }
+	.business-container .grid-col-3__body {
+		padding: 0 0 17px;
+		margin: 0 0 20px;
+	}
+	.business_text-box {
+		padding:13px 15px;
+	}
+}
+/*top*/
+#Business .top-hero { background-image:url(/assets/images/business/hero.jpg); }
+
+/* agent */
+#BusinessAgent .top-hero { background-image: url(/assets/images/business/agent/hero.jpg); }
+
+/* system */
+#BusinessSystem .top-hero { background-image: url(/assets/images/business/system/hero.jpg); }
+
+/* creative */
+#BusinessCreative .top-hero { background-image: url(/assets/images/business/creative/hero.jpg); }

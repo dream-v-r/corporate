@@ -1,0 +1,6 @@
+order allow,deny
+allow from all
+Authname "For Members"
+Authtype Basic
+AuthUserFile /virtual/www/pf/.htpasswd
+require valid-user

@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex">
+<!-- InstanceBeginEditable name="head" -->
+<?php
+	$Path = "./";
+	include($Path.'Include/common.php');
+
+//=============================================================================
+//ページ設定
+	$title = "".$com_title;
+	$h1 = "".$com_h1;
+	$description = "disc". $com_description;
+	$keywords = "key". $com_keywords;
+// SEO
+	$canonical = $com_canonical . "service/index.html";
+//=============================================================================
+	include($Path.'Include/htmlHead.tpl');
+?>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="other" -->
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+$(function(){
+    $('#mv').owlCarousel({
+        slideSpeed  : 200,	// スライドのスピードを設定します。ミリ秒指定。
+        responsive:false,	// レスポンシブかどうかをtrue,falseで指定します。デフォルトはfalse(レスポンシブはオフ）。
+        items : 1,			// 表示させる要素の数を指定します。3にすれば3つ表示。
+		navigation : true, //ナビゲーションの有無
+		navigationText : ["prev","next"], //ナビゲーションのテキスト
+		autoPlay:true,
+		pagination:false
+    });
+});
+</script>
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<?php include($Path.'Include/header.tpl'); ?>
+<!-- InstanceBeginEditable name="main" -->
+<div id="mv">
+		<p><a href=""><img src="images/mv01.png" alt="" /></a></p>
+		<p><a href="service/onsite/"><img src="images/mv02.png" alt="" /></a></p>
+		<p><a href="service/style/"><img src="images/mv03.png" alt="" /></a></p>
+<!-- mv --></div>
+<div id="wapper">
+
+	<div id="headline">
+		<div id="h_sv">
+			<h2><img src="images/icon_sv.png" alt="サービス" /></h2>
+			<p class="text">スタイルでは、ウェブマーケティング会社としての実績を活かし、SEOに強いウェブサイトをご提案致します。</p>
+			<p class="more"><a href="service/index.html">詳細はこちら</a></p>
+		<!-- h_sv --></div>
+		<div id="h_port">
+			<h2><img src="images/icon_port.png" alt="実績紹介" /></h2>
+			<p class="text">スマートフォンの爆発的な普及によって、以前よりも簡単に「検索」ができるようになりました。</p>
+			<p class="more"><a href="achievement/index.html">詳細はこちら</a></p>
+		<!-- h_port --></div>
+		<div id="h_style">
+			<h2><img src="images/icon_style.png" alt="制作スタイル" /></h2>
+			<p class="text">ユーザーは無意識のうちに自分が訪れたページが自分の目的に合ったものかを判断します。</p>
+			<p class="more"><a href="style/index.html">詳細はこちら</a></p>
+		<!-- h_style --></div>
+	<!-- headline --></div>
+	<!-- div id="portcon">
+		<h2><img src="images/head_port.png" alt="制作紹介一覧" /></h2>
+		<p class="item"><a href="http://space.tenji-kai.jp/"><img src="images/img01.png" alt="" /></a></p>
+		<p class="item"><a href="http://kamimuramasaya.com/"><img src="images/img02.png" alt="" /></a></p>
+		<p class="item2"><img src="images/img03.png" alt="" /></p>
+	<!-- portcon</div> -->
+	<div id="svcon">
+		<h2><img src="images/head_sv.png" alt="サービス一覧" /></h2>
+		<div class="leftcon">
+			<p class="pic"><a href="service/front/index.html"><img src="images/icon01.png" alt="" /></a></p>
+			<h3><a href="service/front/index.html">Webフロントエンド開発</a></h3>
+			<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。<br />動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+		<!-- leftcon --></div>
+		<div class="rightcon">
+			<p class="pic"><a href="service/system/index.html"><img src="images/icon02.png" alt="" /></a></p>
+			<h3><a href="service/system/index.html">CMS・システム開発</a></h3>
+			<p class="text">WordPressまたはMovableType™等をプラットフォームにしたCMS開発に強みを持っております。<br />ご要望に応じてフルスクラッチもしくは他のフレームワークを使った開発も可能です。</p>
+		<!-- rightcon --></div>
+		<div class="leftcon">
+			<p class="pic"><img src="images/icon03.png" alt="" /></p>
+			<h3>デザイン制作</h3>
+			<p class="text">大～小規模までのコーポレートサイト、キャンペーンサイト、LPなどのデザイン制作から、ロゴやポスターなどの紙媒体のデザインも対応しております。</p>
+		<!-- leftcon --></div>
+		<div class="rightcon">
+			<p class="pic"><a href="service/appli/index.html"><img src="images/icon04.png" alt="" /></a></p>
+			<h3><a href="service/appli/index.html">スマホアプリケーション開発</a></h3>
+			<p class="text">弊社はマークアップ、コーディングを中心としたフロントエンド開発を得意としております。<br />動きや便利な機能を提供するスクリプトの開発カスタマイズ、スマートフォンをはじめとするマルチデバイス等柔軟に対応しております。</p>
+		<!-- rightcon --></div>
+		<div class="leftcon">
+			<p class="pic"><a href="service/onsite/index.html"><img src="images/icon05.png" alt="" /></a></p>
+			<h3><a href="service/onsite/index.html">オンサイトサービス（御社常駐）</a></h3>
+			<p class="text">お客様企業に経験豊富なWeb制作スタッフ（ディレクター・デザイナー・コーダー・プログラマー）が常駐し、最適な形でWebサイトの運用いたします。</p>
+		<!-- leftcon --></div>
+	<!-- svcon --></div>
+	<div id="stylecon">
+		<h2><img src="images/head_style.png" alt="制作スタイル" /></h2>
+		<div class="leftcon">
+				<h3><a href="style/index.html#box01">TECHNICAL</a></h3>
+				<p>デザインは決まっている！<br />コーディングとシステム開発はどうしようか・・・そんな時はご相談下さい。<br />弊社の開発チームがバックアップします。</p>
+		<!-- leftcon --></div>
+		<div class="rightcon">
+				<h3><a href="style/index.html#box02">SYSTEM</a></h3>
+				<p>大規模なWebサイト・システム開発案件にも対応。<br />外部のプログラマー・コーダーをアサインすることで大規模案件に対応したチームを構築することも可能です。</p>
+		<!-- rightcon --></div>
+	<!-- stylecon --></div>
+<!-- wapper --></div>
+<!-- InstanceEndEditable -->
+<?php include($Path.'Include/footer.tpl'); ?>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+}
+
+#all_wrap {
+	width: 100%;
+	float: left;
+	background-color: #f4faff;
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-top: #001f45 10px solid;
+}
+
+#wrap {
+	width: 950px;
+	margin: 0px auto;
+	clear: both;
+}
+
+.page_box {
+	width: 100%;
+	text-align: right;
+	line-height: 2.4;
+	clear: both;
+}
+
+.pagetop {
+	color:#FFF;
+	margin: 0px 7px 10px 0px;
+	display: inline;
+	padding: 5px 12px 5px 20px;
+	display: inline;
+	background-color: #00bcea;
+	background-image: url(../img/top_up.gif);
+	background-position: 10px 9px;
+	background-repeat: no-repeat;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+}
+
+.mb5 {margin-bottom: 5px;}
+.mb10 {margin-bottom: 10px;}
+.mb15 {margin-bottom: 15px;}
+.mb20 {margin-bottom: 20px;}
+.mb25 {margin-bottom: 25px;}
+.mb30 {margin-bottom: 30px;}
+.mb35 {margin-bottom: 35px;}
+.mb40 {margin-bottom: 40px;}
+.mb45 {margin-bottom: 45px;}
+.mb50 {margin-bottom: 50px;}
+.mb55 {margin-bottom: 55px;}
+.mb60 {margin-bottom: 60px;}
+
+.mt60 {margin-top: 60px;}
+
+.pb5 {padding-bottom: 5px;}
+.pb10 {padding-bottom: 10px;}
+.pb15 {padding-bottom: 15px;}
+.pb20 {padding-bottom: 20px;}
+.pb25 {padding-bottom: 25px;}
+.pb30 {padding-bottom: 30px;}
+.pb35 {padding-bottom: 35px;}
+.pb40 {padding-bottom: 40px;}
+.pb45 {padding-bottom: 45px;}
+.pb50 {padding-bottom: 50px;}
+.pb55 {padding-bottom: 55px;}
+.pb60 {padding-bottom: 60px;}
+
+.pt5 {padding-top: 5px;}
+.pt10 {padding-top: 10px;}
+.pt15 {padding-top: 15px;}
+.pt20 {padding-top: 20px;}
+
+.clear {
+	clear: both;
+}
+

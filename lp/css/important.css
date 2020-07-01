@@ -1,0 +1,44 @@
+@charset "shift_jis";
+/* CSS Document */
+
+
+/* reset */
+body,p,div,ul,li,h1,h2,h3,dl,dt,dd,address {
+	margin: 0px;
+	padding: 0px;
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3","‚l‚r ‚oƒSƒVƒbƒN", Osaka, ;
+	font-weight: normal;
+	font-size: 92.4%;
+	color: #262626;
+	line-height: 1.2;
+	font-style: normal;
+}
+
+ul,li {
+	list-style: none;
+	list-style-type: none;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+body {
+	background-color: #f3f9ff;
+}
+
+a:link {
+	color: #262626;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #262626;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #717171;
+	text-decoration: none;
+}
+

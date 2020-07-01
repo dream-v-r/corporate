@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+
+/*====================================
+
+	News
+
+====================================*/
+/* index */
+#News .top-hero { background-image: url(/assets/images/common/hero_basic.png); }
+.tab {
+	border-bottom: 2px solid #dce0e3;
+	margin-bottom: 30px;
+}
+.tab li {
+	float: left;
+	line-height: 1;
+	font-weight: bold;
+	padding-bottom: 20px;
+	position: relative;
+}
+.tab li span {
+	padding: 0 20px 20px 20px;
+	cursor: pointer;
+}
+.tab .selected :after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: 36px;
+	right: 0px;
+	background-color: #2383c5;
+}
+.tab li:hover :after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: 36px;
+	right: 0px;
+	background-color: #2383c5;
+}
+.tab .selected span { color: #2383c5; }
+.tab li:hover span { color: #2383c5; }
+.news-container { min-height: 560px;}
+.news-list { display: none; }
+.news-selected { display: block; }
+.news-list li {
+	border-bottom: 1px dotted #dce0e3;
+	padding: 0 0 16px;
+}
+.news-list li:not(:last-child) { margin: 0 0 18px; }
+.news-list__item {
+	display: block;
+	padding: 0 10px;
+}
+.news-list__item > span {
+	display: block;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0 0 14px;
+}
+.news-list__label {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0 0 0 18px;
+}
+.label--basic { color: #2383c5; }
+.label--primary { color: #a1c523; }
+.news-list__txt { line-height: 1.5; }
+
+/* detail */
+.news-detail {
+	min-height: 560px;
+	border-bottom: 2px solid #dce0e3;
+	margin: 0 0 40px;
+}
+.news-detail__ttl {
+	font-size: 24px;
+	line-height: 32px;
+	border-bottom: 2px solid #dce0e3;
+	padding: 0 0 19px;
+	margin: 0 0 24px;
+}
+.news-detail__ttl > span {
+	display: block;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0 0 16px;
+}
+.news-detail__txt p { line-height: 28px; }
+.news-detail__txt p .bold { display: block; font-weight: bold; }
+.news-detail__txt p:not(:last-child) { margin: 0 0 28px; }
+.news-detail__txt .em { font-weight: bold; }
+.news-detail__sign {
+	text-align: right;
+	margin: 0 0 28px;
+}
+.news-detail__link {
+	position: relative;
+	margin-left: 11px;
+}
+.news-detail__link a { text-decoration: underline; }
+.news-detail__link::before {
+	content: '';
+	width: 7px;
+	height: 7px;
+	border-top: 1px solid #3e4244;
+	border-right: 1px solid #3e4244;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -11px;
+	margin: auto;
+}
+.news-detail__head li:not(:nth-child(2)) { text-align: right; }
+.news-detail_head_ttl {
+	margin:28px 0;
+	font-weight: bold;
+	text-align: center;
+}
+.news-detail_right { text-align: right; }
+.news-detail_center { text-align: center; }
+.news-detail_list > dt { font-weight: bold; }
+.news-detail_list dd { margin-bottom:15px; }
+.news-detail_list > dt:last-child dd { margin: 0; }
+.news-btn {
+	width: 422px;
+	margin: 0 auto;
+}
+.news-btn__link {
+	display: block;
+	color: #fff;
+	line-height: 62px;
+	text-align: center;
+	background-color: #2383c5;
+	border: 2px solid #2383c5;
+}
+.news-btn__link::before,
+.news-btn__link::after {
+	background-color: #2383c5;
+}
+.news-btn__link:hover {
+	background-color: #fff;
+	color: #2383c5;
+}
+@media screen and (max-width: 767px) {
+	.tab {
+		margin-bottom: 14.5px;
+		font-size: 15px;
+	}
+	.tab li { padding-bottom: 10px; }
+	.tab .selected :after {
+		content: '';
+		width: 100%;
+		height: 2px;
+		position: absolute;
+		top: 25px;
+		right: 0px;
+		background-color: #2383c5;
+	}
+	.tab li:hover :after {
+		content: '';
+		width: 100%;
+		height: 2px;
+		position: absolute;
+		top: 25px;
+		right: 0px;
+		background-color: #2383c5;
+	}
+	.tab li span { padding-bottom: 10px; }
+	.news-detail { margin: 0 0 20px; }
+	.news-detail__ttl {
+		font-size: 15px;
+		line-height: 1.6;
+		padding: 0 0 10px;
+    	margin: 0 0 12px;
+	}
+	.news-detail__ttl > span { margin: 0 0 8px; }
+	.news-detail__txt p {
+		font-size: 14px;
+		line-height: 1.5714285;
+	}
+	.news-detail__txt p:not(:last-child) { margin: 0 0 14px; }
+	.news-detail__sign {
+		font-size: 14px;
+		line-height: 1.5714285;
+	}
+	.news-detail_list { font-size:14px; }
+	.news-btn { width: 100%; }
+	.news-btn__link {
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 3.5714285;
+	}
+}

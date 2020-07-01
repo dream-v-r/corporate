@@ -1,0 +1,440 @@
+@charset "UTF-8";
+
+
+/*
+ * Common
+************************************/
+body { background-color: #fff; }
+body,
+input,
+button,
+select {
+	font-family: "游ゴシック", YuGothic, "メイリオ", Meiryo,  "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+input,
+select {
+	font-size: 14px;
+}
+@media all and (-ms-high-contrast:none) {
+	input,
+	button,
+	select,
+	#entry__tbl th > span {
+		font-family: "メイリオ", Meiryo, "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	}
+}
+img {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+.l-fullCol {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.clear:before,
+.clear:after {
+	content: '';
+	display: table;
+}
+.clear:after { clear: both; }
+
+
+
+/*
+ * Header
+************************************/
+.header {
+	min-width: 1024px;
+	border-top: 5px solid #2584c5;
+	box-shadow: 0 0 5px rgba(76,89,93,.1);
+}
+.header__inner {
+	display: table;
+	padding: 21px 30px 18px;
+}
+.header__logo,
+.header__txt {
+	display: table-cell;
+}
+.header__logo { width: 340px; }
+.header__logo a { display: block; }
+.header__txt { padding: 0 0 0 27px; }
+
+
+
+/*
+ * Main
+************************************/
+#Main {
+	display: block;
+	margin: 0 0 70px;
+}
+
+/* jumbotron */
+.jumbotron {
+	background-image: url(../images/bg_jumbotron.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+.jumbotron__inner {
+	position: relative;
+	padding: 406px 30px 0;
+}
+.jumbotron__img {
+	position: absolute;
+	top: 0;
+	left: -100px;
+}
+
+/* content */
+#content,
+#entry {
+	float: left;
+}
+#content {
+	width: 674px;
+	margin: 0 0 0 -6px;
+}
+#entry {
+	width: 296px;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(8,14,21,.15);
+	margin: -500px 0 0;
+}
+.section { margin: 0 0 30px; }
+.section__ttl { margin: 0 0 25px 6px; }
+#UnitPrice { margin: -70px 0 30px; }
+.entry__ttl { margin: 0 0 16px; }
+.entry__flow { margin: 0 0 10px; }
+
+
+
+/*
+ * Form
+************************************/
+.entry__form { padding: 0 15px 15px; }
+.entry__txt {
+	font-size: 12px;
+	line-height: 16px;
+	border-bottom: 1px solid #d7e0e3;
+	padding: 0 0 10px;
+}
+#entry__tbl {
+	color: #555a5d;
+	font-size: 14px;
+	margin: 0 0 15px;
+}
+#entry__tbl th {
+	font-weight: bold;
+	text-align: left;
+	padding: 12px 0 8px;
+}
+#entry__tbl th > span {
+	display: inline-block;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 13px;
+	background-color: #e43513;
+	border-radius: 3px;
+	padding: 0 4px;
+	margin: 0 0 0 4px;
+}
+#entry__tbl input[type="text"],
+#entry__tbl input[type="email"],
+#entry__tbl input[type="tel"],
+#entry__tbl select {
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #d7e0e3;
+	border-radius: 3px;
+	padding: 0 10px;
+}
+#entry__tbl option { color: #555a5d; }
+#entry__tbl .notSelect { color: #555a5d; }
+:placeholder-shown { color: #bbc4c9; }
+::-webkit-input-placeholder { color: #bbc4c9; }
+:-moz-placeholder {
+	color: #bbc4c9;
+	opacity: 1;
+}
+::-moz-placeholder {
+	color: #bbc4c9;
+	opacity: 1;
+}
+:-ms-input-placeholder { color: #bbc4c9; }
+#lastName,
+#firstName,
+#lastNameKana,
+#firstNameKana,
+#language,
+#years {
+	width: 130px;
+}
+#birthYear { width: 114px; }
+#birthMonth,
+#birthDay {
+	width: 70px;
+}
+#email,
+#tel {
+	width: 100%;
+}
+.entry__tbl__name p {
+	display: table;
+	width: 100%;
+}
+.entry__tbl__name p:first-child { margin: 0 0 6px; }
+.entry__tbl__name p > label {
+	display: table-cell;
+	width: 50%;
+	padding: 0 3px 0 0;
+}
+.entry__tbl__name p > label + label { padding: 0 0 0 3px; }
+.entry__tbl__birth,
+.entry__tbl__experience {
+	letter-spacing: -.4em;
+}
+.entry__tbl__birth select,
+.entry__tbl__experience select {
+	letter-spacing: normal;
+}
+.entry__tbl__birth select:not(:first-child) { margin: 0 0 0 6px; }
+.birth > label,
+.birth__inner,
+.birth__inner label {
+	display: inline-block;
+}
+.birth__inner label { padding: 0 0 0 6px; }
+.experience {
+	display: table;
+	width: 100%;
+}
+.experience > label {
+	display: table-cell;
+	width: 50%;
+	padding: 0 3px 0 0;
+}
+.experience > label + label { padding: 0 0 0 3px; }
+#Privacypolicy {
+	height: 230px;
+	font-size: 12px;
+	border: 1px solid #d7e0e3;
+	border-radius: 3px;
+	padding: 12px 8px;
+	overflow: auto;
+}
+#Privacypolicy dt {
+	font-weight: bold;
+	line-height: 18px;
+}
+#Privacypolicy dd { line-height: 24px; }
+#pp__tbl {
+	width: 100%;
+	border-top: 1px solid #d7e0e3;
+	border-left: 1px solid #d7e0e3;
+}
+#pp__tbl col:first-child { width: 50px; }
+#pp__tbl th,
+#pp__tbl td {
+	line-height: 1.14285714;
+	padding: 4px 6px;
+	border-right: 1px solid #d7e0e3;
+	border-bottom: 1px solid #d7e0e3;
+}
+#pp__tbl th {
+	text-align: center;
+	font-weight: normal;
+}
+#pp__tbl td { vertical-align: middle; }
+.entry__btn input[type="submit"] {
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+	background-color: #ee561a;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	-webkit-appearance: none;
+}
+.entry__btn input[type="submit"]:hover { opacity: .6; }
+@media screen and (max-width: 767px) {
+	input,
+	select {
+		font-size: 16px;
+	}
+}
+
+
+
+/*
+ * Footer
+************************************/
+.footer {
+	min-width: 1024px;
+	font-size: 13px;
+	background-color: #2584c5;
+}
+.footer__inner { padding: 36px 30px 33px; }
+.footer__link {
+	float: left;
+	letter-spacing: -.4em;
+}
+.footer__link li {
+	display: inline-block;
+	letter-spacing: normal;
+}
+.footer__link li:not(:first-child) { margin: 0 0 0 48px; }
+.footer__link a {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+}
+.footer__link a:after {
+	content: '';
+	width: 12px;
+	height: 8px;
+	background-image: url(../images/icon_blank.png);
+	background-repeat: no-repeat;
+	margin: -4px 0 0 8px;
+	position: absolute;
+}
+#footer__copyright {
+	float: right;
+	color: #fff;
+}
+
+
+
+@media screen and (max-width: 767px) {
+	img { width: 100%; }
+	.l-fullCol {
+		width: 100%;
+		padding: 0 11px;
+	}
+	.header {
+		min-width: 100%;
+		border-top: 3px solid #2584c5;
+	}
+	.header__inner { padding: 11px 8px; }
+	.header__logo { width: 170px; }
+	.header__txt {
+		text-align: right;
+		padding: 0 0 0 19px;
+	}
+	.header__txt img { width: 137px; }
+	#Main { margin: 0 0 40px; }
+	.jumbotron { background: none; }
+	.jumbotron__inner { padding: 0; }
+	.jumbotron__img { position: static; }
+	#content,
+	#entry {
+		float: none;
+	}
+	#content {
+		width: 100%;
+		margin: 0 0 13px;
+	}
+	#entry {
+		width: 100%;
+		box-shadow: none;
+		margin: 0;
+	}
+	#entry__tbl input[type="text"],
+	#entry__tbl input[type="email"],
+	#entry__tbl input[type="tel"]{
+	line-height: 1;
+	padding: 8.5px 10px;
+		height: 40px;
+	}
+	input::-webkit-input-placeholder{
+		line-height: 1.5;
+	}
+	.section { margin: 0; }
+	.section__ttl { margin: 0 0 16px; }
+	#Merit.section { margin: 0 0 14px; }
+	#UnitPrice { margin: -28px 0 15px; }
+	.entry__ttl { margin: 0 -11px 16px; }
+	.entry__flow {
+		text-align: center;
+		margin: 0 0 18px;
+	}
+	.entry__flow img {
+		width: auto;
+		max-width: 100%;
+	}
+	.entry__form { padding: 0 4px; }
+	.entry__txt { padding: 0 0 14px; }
+	#entry__tbl th { padding: 15px 0 10px; }
+	#lastName,
+	#firstName,
+	#lastNameKana,
+	#firstNameKana,
+	#language,
+	#years{
+		width: 100%;
+	}
+	#birthYear,
+	#birthMonth,
+	#birthDay {
+		width: 100%;
+	}
+	.entry__tbl__name p:first-child { margin: 0 0 10px; }
+	.entry__tbl__name p > label { padding: 0 5px 0 0; }
+	.entry__tbl__name p > label + label { padding: 0 0 0 5px; }
+	.birth > label {
+		display: block;
+		margin: 0 0 10px;
+	}
+	.birth__inner {
+		display: table;
+		width: 100%;
+	}
+	.birth__inner label {
+		display: table-cell;
+		width: 50%;
+		padding: 0;
+	}
+	.birth__inner label { padding: 0 5px 0 0; }
+	.birth__inner label + label { padding: 0 0 0 5px; }
+	.experience > label { padding: 0 5px 0 0; }
+	.experience > label + label { padding: 0 0 0 5px; }
+	#Privacypolicy {
+		height: 270px;
+		font-size: 14px;
+		padding: 12px 11px;
+	}
+	#Privacypolicy dt,
+	#Privacypolicy dd {
+		line-height: 1.5;
+	}
+	#Privacypolicy dd:not(:last-of-type) { margin: 0 0 12px; }
+	#pp__tbl col:first-child { width: 20%; }
+	#pp__tbl th,
+	#pp__tbl td {
+		padding: 10px 4px;
+	}
+	.footer { min-width: 100%; }
+	.footer__inner {
+		text-align: center;
+		padding: 25px 11px;
+	}
+	.footer__link {
+		float: none;
+		letter-spacing: normal;
+		margin: 0 0 27px;
+	}
+	.footer__link li { display: block; }
+	.footer__link li:first-child { margin: 0 0 16px; }
+	.footer__link li:not(:first-child) { margin: 0; }
+	#footer__copyright {
+		float: none;
+		font-size: 11px;
+	}
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 透過png */
+.iepngfix {
+	behavior: expression(IEPNGFIX.fix(this));
+}
+
+#creat_wrap {
+	width: 900px;
+	float: left;
+	display: inline;
+	border-bottom: 10px solid #676767;
+	margin-bottom: 10px;
+	color: #042200;
+}
+
+.creat_tit {
+	width: 850px;
+	margin: 30px 0px 25px 17px;
+	padding: 0px 0px 10px 3px;
+	float: left;
+	display: inline;
+	background-image: url(../img/bottom_line.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 40px;
+}
+
+.creat_tit h2 {
+	width: 650px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 3px;
+	float: left;
+	display: inline;
+	font-size: 220%;
+	font-weight: bold;
+	clear: both;
+	color: #042200;
+}
+
+#creat_wrap .creat_tit p {
+	margin: 20px 30px 0px 0px;
+	float: right;
+	font-weight: bold;
+	color: #acacac;
+}
+
+
+#creat_wrap .creat_navi {
+	width: 370px;
+	margin: 20px 0px 40px 30px;
+	float: left;
+	display: inline;
+	color: #042200;
+}
+
+#creat_wrap .creat_navi li {
+	margin: 0px 0px 45px 0px;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+#creat_wrap .creat_navi img {
+	margin: 0px 12px 0px 0px;
+}
+
+#creat_wrap .creat_navi02 {
+	width: 440px;
+	margin: 20px 0px 40px 0px;
+	float: left;
+	display: inline;
+	color: #042200;
+}
+
+#creat_wrap .creat_navi02 li {
+	margin: 0px 0px 45px 0px;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+#creat_wrap .creat_navi02 img {
+	margin: 0px 12px 0px 0px;
+}
+
+.ss_navi {
+	font-size: 60%;
+	font-weight: normal;
+	margin: 0px 0px 0px 260px;
+}
+
+.ss_navi02 {
+	font-size: 60%;
+	font-weight: normal;
+	margin: 0px 0px 0px 330px;
+}
+
+
+
+#creat_wrap .creat_navi a:link {color: #042200;	text-decoration: none;}
+#creat_wrap .creat_navi a:visited {color: #042200; text-decoration: none;}
+#creat_wrap .creat_navi a:hover {color: #0e7400; text-decoration: none;}
+#creat_wrap .creat_navi02 a:link {color: #042200;	text-decoration: none;}
+#creat_wrap .creat_navi02 a:visited {color: #042200; text-decoration: none;}
+#creat_wrap .creat_navi02 a:hover {color: #0e7400; text-decoration: none;}
+
+
+

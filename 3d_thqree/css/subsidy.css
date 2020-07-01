@@ -1,0 +1,383 @@
+  @charset "utf-8";
+  /* CSS Document */
+
+  body {
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+    color: #444;
+  }
+
+  body a {
+    text-decoration: none;
+    color: #444;
+  }
+
+  .inner {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .section {
+    margin-top: -92px;
+    padding-top: 92px;
+  }
+
+  .sp_on {
+    display: none!important;
+  }
+  /*––––––––––––––––––––––––––––––––––––––––––––––––––
+ header
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+  #header {
+    min-width: 1000px;
+    background: #fff;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #2ea7e0;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  #header h1 {
+    float: left;
+    margin: 0 20px 0 0
+  }
+
+  #header .btn {
+    float: right;
+    padding: 5px 0 0 0;
+  }
+
+  #header .btn:hover {
+    opacity: 0.8;
+  }
+  /*––––––––––––––––––––––––––––––––––––––––––––––––––
+contnts 共通
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+  #contnts {
+    min-width: 1000px;
+  }
+
+  #contnts .section .inner {
+    width: 880px;
+    margin: 0 auto;
+    padding: 60px 0 90px 0;
+  }
+
+  #contnts .section .btn {
+    text-align: center;
+  }
+
+  #contnts .section .btn:hover {
+    opacity: 0.8;
+  }
+
+  #contnts h3 {
+    background: url(../img/bar_title.jpg) no-repeat center top;
+    background-size: cover;
+    font-size: 32px;
+    color: #fff;
+    padding: 30px 0;
+  }
+
+  #contnts h3 .wap {
+    width: 880px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #contnts .section h4 {
+    font-size: 26px;
+    color: #2ea7e0;
+    text-align: center;
+    margin: 0 0 50px 0;
+  }
+
+  #contnts .section .b_tex {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 50px 0;
+  }
+
+  #contnts .section .tex {
+    margin: 0 0 35px 0;
+  }
+
+  #contnts .section .tit {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+
+  #contnts .section .box {
+    margin: 0 0 30px 0;
+  }
+
+  #contnts .section .box dl {
+    margin: 0 0 45px 0;
+  }
+
+  #contnts .section .box dl dt {
+    float: left;
+  }
+
+  #contnts .section .box dl dd {
+    padding: 0 0 15px 300px;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #contnts .section a {
+    text-decoration: underline;
+  }
+
+  #contnts .section a:hover {
+    text-decoration: none;
+  }
+
+  #contnts .section .btn {
+    width: 550px;
+    margin: 60px auto 0 auto;
+  }
+
+  #contnts .section .btn a {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    border: 1px solid #2ea7e0;
+    color: #2ea7e0;
+    font-weight: bold;
+  }
+
+  #contnts .section .btn a:hover {
+    background: #2ea7e0;
+    color: #fff;
+  }
+  /*––––––––––––––––––––––––––––––––––––––––––––––––––
+ pageTop 
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+  #pageTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #pageTop a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  /*––––––––––––––––––––––––––––––––––––––––––––––––––
+ footer
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+  #footer {
+    background: #333;
+    color: #fff;
+    min-width: 1000px;
+    padding: 50px 0 25px;
+  }
+
+  #footer .inner {
+    width: 880px;
+  }
+
+  #footer h3 {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 0 15px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  #footer .box {
+    margin: 0 0 20px 0;
+  }
+
+  #footer .info {
+    display: inline-block;
+    margin: 0 480px 0 0;
+  }
+
+  #footer .tex {
+    margin: 0 0 5px 0;
+  }
+
+  #footer .tel {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  #footer .day {
+    line-height: 1;
+    font-size: 13px;
+    margin: 0 0 30px 0;
+  }
+
+  #footer .sns {
+    overflow: hidden;
+  }
+
+  #footer .sns li {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+  #footer .link {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 12px;
+    text-align: right;
+    line-height: 2;
+  }
+
+  #footer .link a {
+    color: #fff;
+  }
+
+  #footer .copy {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #footer .tel a {
+    color: #fff;
+  }
+  /** ここからSP **/
+
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+    /*––––––––––––––––––––––––––––––––––––––––––––––––––
+ common
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+    .sp_on {
+      display: block!important;
+    }
+    .pc_on {
+      display: none!important;
+    }
+    #contnts {
+      min-width: auto;
+    }
+    .inner {
+      width: auto;
+      margin: 0;
+    }
+    .section {
+      margin-top: -70px;
+      padding-top: 70px;
+    }
+    /*––––––––––––––––––––––––––––––––––––––––––––––––––
+ header
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+    #header {
+      min-width: auto;
+      overflow: auto;
+      width: auto;
+      padding: 10px 20px;
+    }
+    #header img {
+      width: 100%;
+    }
+    #header h1 {
+      width: 25%;
+      margin-top: 3%;
+    }
+    #header .btn {
+      width: 48%;
+      float: left;
+      padding: 0;
+      line-height: 0;
+    }
+    /*––––––––––––––––––––––––––––––––––––––––––––––––––
+contents
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+    #contnts {
+      min-width: auto;
+    }
+    #contnts h3 {
+      background: url(../img/sp/bar_title.jpg) no-repeat center top;
+      background-size: cover;
+      font-size: 20px;
+      padding: 15px 0;
+    }
+    #contnts h3 .wap {
+      width: auto;
+    }
+    #contnts .section .inner {
+      width: auto;
+      padding: 25px 15px 45px 15px;
+    }
+    #contnts .section img {
+      width: 100%;
+    }
+    #contnts .section h4 {
+      font-size: 18px;
+      margin: 0 0 25px 0;
+    }
+    #contnts .section .b_tex {
+      margin: 0 0 25px 0;
+    }
+    #contnts .section .tex {
+      margin: 0 0 15px 0;
+    }
+    #contnts .section .box {
+      font-size: 14px;
+    }
+    #contnts .section .box dl dd {
+      padding: 0 0 10px 45%;
+      margin: 0 0 10px 0;
+    }
+    #contnts .section .btn {
+      width: 100%;
+      margin-top: 30px;
+    }
+    #contnts .section .btn a {
+      padding: 10px 0;
+    }
+    /*––––––––––––––––––––––––––––––––––––––––––––––––––
+ footer
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+    #footer {
+      min-width: auto;
+      padding: 25px 15px 20px 15px;
+    }
+    #footer .inner {
+      width: auto;
+    }
+    #footer h3 {
+      padding: 0 0 10px 0;
+      margin: 0 0 20px 0;
+    }
+    #footer .box {
+      padding: 0 15px;
+    }
+    #footer .info {
+      margin: 0 0 15px 0;
+      display: block;
+    }
+    #footer .tex {
+      font-size: 14px;
+    }
+    #footer .tel {
+      color: #fff;
+      font-size: 23px;
+      float: none;
+      margin: 0 20px 0 0;
+    }
+    #footer .link {
+      display: block;
+      text-align: center;
+    }
+    #footer .link ul li {
+      display: inline-block;
+      margin: 0 25px 0 0;
+    }
+  }

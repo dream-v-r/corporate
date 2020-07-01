@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<title>お問合わせ - 次元顔認証システム「THQREE」</title>
+	<meta charset="UTF-8">
+<meta name="description" content="あなた自身がキーになる 世界水準の認証精度・認証スピードを兼ね備えた3次元顔認証システム「THQREE」" />
+<meta name="keywords" content="3D顔認証,3次元顔認証,3次元,セキュリティー,ドリームビジョン," />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://www.dream-v.co.jp/3d_thqree/contact/">
+	<link rel="shortcut icon" href="">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/common/ress.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/common/common.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/common/dynamic.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/contact.css">
+</head>
+
+<body>
+
+	<div class="loadingCover"></div>
+
+	<div id="wrapper">
+
+		<header class="st-header l-fullGrid" id="Header" role="banner">
+			<div class="st-header__content l-grid" id="HeaderSimple">
+				<div class="st-header__inner clear">
+					<h1 class="st-header__logo"><a href="http://www.dream-v.co.jp/3d_thqree/"><img src="http://www.dream-v.co.jp/3d_thqree/img/fig_logo.jpg" alt="3D認証システムTHQREE" class="st-header__logo__img js-ImageSwitch"></a></h1>
+					<nav class="st-header__nav st-header__nav" role="navigation">
+						<ul class="st-header__globalNav clear">
+							<li>
+								<div class="st-header__globalNav__cell">
+									<a href="http://www.dream-v.co.jp/3d_thqree/" class="st-header__globalNav__link st-header__globalNav__link"><span class="st-header__globalNav__lato st-header__globalNav__lato">Back to index</span></a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="st-main grid-3" id="Contact" role="main">
+			<div class="top-container">
+				<div class="top-hero">
+					<div class="top-hero__heading l-grid">
+						<div class="top-hero__heading__inner">
+							<h2 class="top-hero__ttl"><span class="top-hero__ttl__txt--lato">Contact us</span><span class="top-hero__ttl--txt">お問合わせ</span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="c-container">
+				<section class="c-section">
+					<div class="grid-col-3">
+						<p class="top_text">弊社へのご質問・お問合わせは下記のフォームからお願い致します。<br><span>※必須項目は必ずご入力ください。</span></p>
+						<div id="js-ErrorMassage" class="head_error">必須項目が未入力、または誤りがあります。</div>
+						<form action="./postmail/postmail.cgi" method="post" id="js-ContactFrom">
+							<table id="contact_table" class="clear">
+								<tr>
+									<th>お問合わせ種類<span class="required ffUnique">必須</span></th>
+									<td>
+										<select name="inquiry" class="js-InquirySelect">
+											<option value="" selected>選択してください</option>
+											<option value="システムに関するお問合わせ">システムに関するお問合わせ</option>
+											<option value="その他お問合わせ">その他お問合わせ</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<th>お名前<span class="required ffUnique">必須</span></th>
+									<td class="name_input_box"><span class="fname">姓</span><input type="text" name="sei" class="sei"><br class="ad_br"><span class="name">名</span><input type="text" name="mei">
+									</td>
+								</tr>
+								<tr>
+									<th>ふりがな<span class="required ffUnique">必須</span></th>
+									<td class="name_input_box name_input_box_furi"><span class="furi_fname">せい</span><input type="text" name="furi_sei" class="sei"><br class="ad_br"><span class="furi_name">めい</span><input type="text" name="furi_mei">
+									</td>
+								</tr>
+								<tr>
+									<th>会社名</th>
+									<td><input type="text" name="company" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>メールアドレス<span class="required ffUnique">必須</span></th>
+									<td><input type="email" value="" name="email" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>メールアドレス(確認)<span class="required ffUnique">必須</span></th>
+									<td><input type="email" value="" name="mail_check" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>電話番号</th>
+									<td><input type="text" name="tel" class="input_100"></td>
+								</tr>
+								<tr>
+									<th>ご住所</th>
+									<td class="addlist"><span>郵便番号</span><br class="ad_br"><input type="text" name="add0" class="input_add_1" onKeyUp="AjaxZip3.zip2addr(this,'','add1','add2');"><br><span>都道府県</span><br class="ad_br"><input type="text" name="add1" class="input_add_1"><br><span>市区町村</span><br class="ad_br"><input type="text" name="add2" class="input_add"><br><span>丁目番地</span><br class="ad_br"><input type="text" name="add3" class="input_add"><br><span>ビル・<br class="ad_br_s">マンション名</span><br class="ad_br"><input type="text" name="add4" class="input_add">
+									</td>
+								</tr>
+								<tr>
+									<th class="inquiry_area">お問合わせ内容<span class="required ffUnique">必須</span></th>
+									<td><textarea name="inquiry_area"></textarea></td>
+								</tr>
+							</table>
+							<p class="text_box_title">個人情報の取扱について</p>
+							<div class="text_box">
+								<dl>
+									<dt>（１）事業者の氏名または名称</dt>
+									<dd>ドリームビジョン株式会社</dd>
+									<dt>（２）個人情報保護管理者</dt>
+									<dd>代表取締役　前田 俊樹</dd>
+									<dt>（３）個人情報の利用目的</dt>
+									<dd>お問い合わせいただいた内容に回答するため</dd>
+									<dt>（４）個人情報の第三者提供について</dt>
+									<dd>取得した個人情報は法令等による場合を除いて第三者に提供することはありません。</dd>
+									<dt>（５）個人情報の取扱いの委託について</dt>
+									<dd>取得した個人情報は、情報管理等の目的で外部に業務委託することがあります。<br> 委託に際しては、個人情報の保護水準が、当社が設定する安全対策基準を満たす事業者を選定し、適切な管理、監督を行います。
+									</dd>
+									<dt>（６）開示対象個人情報の開示等および問い合わせ窓口について</dt>
+									<dd>ご本人からの求めにより、当社が保有する開示対象個人情報の利用目的の通知・開示・内容の訂正・追加または削除・利用の停止・消去および第三者への提供の停止（「開示等」といいます。）に応じます。 開示等に応ずる窓口は、お問合せいただきました当該部署になります。</dd>
+									<dt>（７）本人が容易に認識できない方法による個人情報の取得</dt>
+									<dd>クッキーやウェブビーコン等を用いるなどして、本人が容易に認識できない方法による個人情報の取得は行っておりません。
+									</dd>
+									<dt>（８）個人情報の安全管理措置について</dt>
+									<dd>取得した個人情報については、漏洩、減失またはき損の防止と是正、その他個人情報の安全管理のために必要かつ適切な措置を講じます。<br> お問合せへの回答後、取得した個人情報は当社内において削除致します。
+									</dd>
+									<dt>（９）個人情報保護方針</dt>
+									<dd>当社ホームページの個人情報保護方針をご覧下さい。
+									</dd>
+									<dt>（１０）当社の個人情報の取扱いに関する苦情、相談等の問合せ先</dt>
+									<dd>当社ホームページの個人情報保護方針をご覧下さい。
+									</dd>
+								</dl>
+								<p>制定日：2008年6月 10日<br> 最終改訂：2010年2月 9日 <br>代表取締役　前田　俊樹</p>
+								<p>【個人情報の取り扱いに関するお問合せ先】<br> ドリームビジョン株式会社　個人情報お問合せ窓口 <br>〒103-0001 東京都中央区日本橋小伝馬町9-10 小伝馬町ビル5階<br> 電話：03-6661-9626
+								</p>
+							</div>
+							<div class="footer_box">
+								<input type="checkbox" name="cons" id="cons_checkbox">
+								<label for="cons_checkbox" id="cons_checkbox" class="cons_label"><span class="label_text">上記の個人情報の取扱いに同意します。</span></label><span class="required ffUnique required_cons">必須</span>
+							</div>
+							<p class="submit_box is-hover"><input type="submit" value="確認画面へ" class="submit_btn_inner"></p>
+						</form>
+					</div>
+
+				</section>
+			</div>
+		</main>
+
+
+		<footer class="st-footer" id="Footer" role="contentinfo">
+			<div class="st-footer__inner" id="FooterSimple">
+				<div class="st-footer__foot l-grid">
+					<div class="st-footer__foot__inner clear">
+						<ul class="st-footer__foot__list">
+							<li><a href="http://www.dream-v.co.jp/sitemap/">サイトマップ</a></li>
+							<li><a href="http://www.dream-v.co.jp/privacy/">個人情報保護方針</a></li>
+						</ul>
+						<p class="st-footer__copyright">Copyright(c) DreamVision Co.,Ltd.All Rights</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script type="text/javascript" src="./assets/js/scripts.js"></script>
+	<script type="text/javascript" src="./assets/js/dynamic.js"></script>
+	<script type="text/javascript" src="./assets/js/lib/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="./assets/js/contactValidate.js"></script>
+
+</body>
+</html>

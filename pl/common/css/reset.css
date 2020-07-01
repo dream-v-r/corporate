@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,p,img,ul,li,h1,h2,h3,map,area,span,strong,dl,dt,dd {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "MS PGothic", "ＭＳ Ｐゴシック";
+	font-size: 92%;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+ul,li {
+	list-style: none;
+	list-style-type: none;
+}
+
+

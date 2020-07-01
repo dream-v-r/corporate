@@ -1,0 +1,6 @@
+#拡張子がHTMLのファイルをPHPとして実行させる
+AddType "text/html; charset=UTF-8" .html .php
+AddType application/x-httpd-php .html
+
+php_flag mbstring.encoding_translation off
+php_value default_charset "UTF-8"
