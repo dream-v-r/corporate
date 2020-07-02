@@ -86,6 +86,25 @@
 	background-color: #fff;
 }
 
+.service-btn__link.disabled {
+	color: #ddd;
+	background-color: #0a75c793;
+}
+
+.service-btn__link.disabled > span > span.coming_soon {
+	font-size: small;
+	color: #be112e;
+}
+
+.service-btn__link.disabled::before,
+.service-btn__link.disabled::after {
+	background-color: #0a75c793;
+}
+.service-btn__link.disabled:hover {
+	color: #0a74c7;
+	background-color: #fff;
+}
+
 /* about */
 #ServiceAbout .top-hero { background-image: url(/assets/images/service/about/hero.png); }
 #ServiceAbout .btn-primary {
@@ -123,9 +142,9 @@
 }
 
 /* thqree*/
-.thqree-body__inner { 
-    background-image: url(/assets/images/service/thqree/img_thqree_2.png); 
-    background-repeat: repeat-y; 
+.thqree-body__inner {
+    background-image: url(/assets/images/service/thqree/img_thqree_2.png);
+    background-repeat: repeat-y;
     background-size: contain;
 }
 
