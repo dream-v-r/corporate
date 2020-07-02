@@ -87,22 +87,14 @@
 }
 
 .service-btn__link.disabled {
-	color: #ddd;
-	background-color: #0a75c793;
+	color: #0a74c7;
+	line-height: 36px;
+	background-color: #fff;
 }
 
 .service-btn__link.disabled > span > span.coming_soon {
 	font-size: small;
 	color: #be112e;
-}
-
-.service-btn__link.disabled::before,
-.service-btn__link.disabled::after {
-	background-color: #0a75c793;
-}
-.service-btn__link.disabled:hover {
-	color: #0a74c7;
-	background-color: #fff;
 }
 
 /* about */
